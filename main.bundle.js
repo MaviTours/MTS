@@ -2822,7 +2822,7 @@ var REGEXP_TELEFONO = new RegExp("[0-9]{9}");
 var REGEXP_PLACA = new RegExp("[a-zA-Z0-9]{3}-[a-zA-Z0-9]{3}");
 var REGEXP_NOT_EMPTY = new RegExp(".*\\S.*");
 var REGEXP_CUENTA = new RegExp("[0-9]{0,12}");
-var REST_URL = "https://104.236.209.20:8031";
+var REST_URL = "https://104.236.209.20:9000";
 //# sourceMappingURL=constantes.js.map
 
 /***/ }),
