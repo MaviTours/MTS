@@ -1,0 +1,15 @@
+[
+    {"key":"app.generico.preguntaeliminar","msg":"¿Desea eliminar este registro?"},
+    {"key":"app.generico.todos","msg": "-- Todos --"},
+    {"key":"app.generico.ninguno","msg": "-- Ninguno --"},
+
+    {"key":"app.login.usuarionoencontrado","msg": "Usuario y/o contraseña incorrectos."},
+    {"key":"app.login.usuariobloqueado","msg": "Usuario bloqueado."},
+
+    {"key":"app.maestro.transaccion.seleccioncuenta","msg":"Se seleccionó la cuenta [valor]"} ,
+    {"key":"app.maestro.transaccion.mensajeeliminar","msg":"Se eliminó la transacción [valor]"},
+    {"key":"app.maestro.transaccion.mensajeregistrar","msg":"Se registró la transacción [valor]"},
+    {"key":"app.maestro.transaccion.mensajeactualizar","msg":"Se actualizó la transacción [valor]"},
+
+    {"key":"app.transaccion.transaccionnoencontrada","msg":"La Transaccion del Sistema: [valor] no esta registrada en el Maestro"}
+]

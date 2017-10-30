@@ -1,0 +1,165 @@
+/* Reset */
+html,
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Set up a default font and some padding to provide breathing room */
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.ui-widget{
+  font-size: 12px !important;
+}
+
+
+.textoCentrado {
+    text-align: center;
+}
+
+.textoDerecha {
+    text-align: right;
+}
+
+.negrita{
+    font-weight: bold;     
+}
+
+.textoRojo {
+    color: #de2727;
+}
+
+.textoVerde {
+    color: #34bd4b;
+}
+
+.seleccionable{
+	cursor:pointer;
+}
+
+.ui-radiobutton-icon {
+    display: block !important;
+    font-size: .6em !important;
+    line-height: inherit !important;
+}
+
+/*El icono sale descentrado*/
+.ui-chkbox .ui-chkbox-icon {
+    margin-top: 0px; 
+    margin-left: 0px; 
+}
+
+.ui-growl-image {
+    float: left;
+    margin-left: 5px;
+    padding: 0;
+    display: block;
+    /* line-height: 2em !important; */
+}
+
+.ui-dialog .ui-dialog-title {
+    float: left;
+    margin: .1em 16px .1em 0;
+    font-size: 15px !important;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+
+.ui-dialog .ui-dialog-titlebar {
+    margin: auto;
+    padding: .5em 1em .3em;
+    background: #106cc8 !important;
+    position: relative;
+    border: 0;
+}
+
+.ui-widget-header {
+    color: rgba(255, 255, 255, 0.87);
+    background: #106cc8;
+}
+
+
+.ui-growl {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: inherit;
+}
+
+.inputEnGrillaNumero{
+    text-align: right;
+    width: 100%;
+}
+
+.selectEnGrilla{
+    width: 100%;
+}
+
+.textoMensaje{
+    font-size: 1.45em;
+}
+
+.requerido :after{
+    content: " *";
+    color: #f44336;
+    font-weight: bold;
+    font-size: 1.5em;
+    display: inline;
+    position: absolute;
+    margin-top: -6px;
+    margin-left: 2px;
+}
+
+
+.backInicio{ 
+    text-align:center;background-color:#20272a;
+}
+
+img .fullWidth{
+    width:100%;
+}
+
+label.ui-radiobutton-label {
+    pointer-events: none;
+}
+
+.controlEtiquetaDiv {	
+	margin-top: 3px;
+	padding-left: 30px !important;	
+}
+.controlEtiquetaDivTop {	
+	margin-top: 3px;
+}
+
+.fullWidth{
+    width:100%;
+}
+
+.itemHidden {
+    display: none;
+}
+
+.tooltip2 {
+    visibility: visible;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 115%;
+}

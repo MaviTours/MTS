@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="28ccb30cf3943ffbd31f540ded0081664212c957" datatype="html" approved="yes">
+        <source>app.generico.no</source> <target state="translated">No</target> </trans-unit>
+      <trans-unit id="9b6985d7a92ef9fe61892a9ec242072bda648abc" datatype="html" approved="yes">
+        <source>app.generico.si</source> <target state="translated">Si</target> </trans-unit>
+      <trans-unit id="b276cc1286b6ddf842f6af1e734079bf630c9b98" datatype="html" approved="yes">
+        <source>app.generico.confirmacion</source> <target state="translated">Confirmación</target> </trans-unit>
+      <trans-unit id="ae2c772b5b11f3701f1ed3714d9fd2383df7855e" datatype="html" approved="yes">
+        <source>app.generico.filtros</source> <target state="translated">Filtros</target> </trans-unit>
+      <trans-unit id="81b8726272f4f708005d82aaec42cce2dbb8d4bf" datatype="html" approved="yes">
+        <source>app.whtransaccionmast.filtrocodigo</source> <target state="translated">Buscar por código</target> </trans-unit>
+      <trans-unit id="4950a879f6e1c20676a549f4b11aa62fb50f6d63" datatype="html" approved="yes">
+        <source>app.generico.buscar</source> <target state="translated">Buscar</target> </trans-unit>
+      <trans-unit id="149a507b4ee5e11697979c2f10fba2fd6d35b216" datatype="html" approved="yes">
+        <source>app.generico.nuevo</source> <target state="translated">Nuevo</target> </trans-unit>
+      <trans-unit id="782621a5ad443308e1d56f8478916d3ede238b05" datatype="html" approved="yes">
+        <source>app.generico.acciones</source> <target state="translated">Acciones</target> </trans-unit>
+      <trans-unit id="3461c99e2bea8b2bb6732ba0317a58783a08ac3b" datatype="html" approved="yes">
+        <source>app.whtransaccionmast.transaccion</source> <target state="translated">Transacción</target> </trans-unit>
+      <trans-unit id="3e4c4bd44a7cf841312100d67b35a73c23dc85e2" datatype="html" approved="yes">
+        <source>app.whtransaccionmast.descripcion</source> <target state="translated">Descripción</target> </trans-unit>
+      <trans-unit id="1b73cf91fdef18502b3e4a7a7f2937e5d7791b3b" datatype="html" approved="yes">
+        <source>app.whtransaccionmast.restringidapregunta</source> <target state="translated">Restringida?</target> </trans-unit>
+      <trans-unit id="0d5cbcd7c3b07738b8aca497ab3b3931af94552c" datatype="html" approved="yes">
+        <source>app.whtransaccionmast.numeracionauto</source> <target state="translated">Num. automática</target> </trans-unit>
+      <trans-unit id="91d58c8af5eb54b8f5fb6727bb67197be062b112" datatype="html" approved="yes">
+        <source>app.whtransaccionmast.genvoucherconsumo</source> <target state="translated">Gen. voucher consumo</target> </trans-unit>
+      <trans-unit id="f93749c410eff3a445db40bfef0b6079b18cb501" datatype="html" approved="yes">
+        <source>app.whtransaccionmast.genvoucherajuste</source> <target state="translated">Gen. voucher ajuste</target> </trans-unit>
+      <trans-unit id="acf65abb4f812013c64809ee1cc366c867112b9f" datatype="html" approved="yes">
+        <source>app.whtransaccionmast.genvoucherventa</source> <target state="translated">Gen. voucher ventas</target> </trans-unit>
+      <trans-unit id="57e8253b8db5be0e634430697de0cdeb6c075355" datatype="html" approved="yes">
+        <source>app.generico.activo</source> <target state="translated">Activo</target> </trans-unit>
+      <trans-unit id="9d10d6e62a3f3912b7bf91e11f81dcc01db9b084" datatype="html" approved="yes">
+        <source>app.generico.inactivo</source> <target state="translated">Inactivo</target> </trans-unit>
+      <trans-unit id="28c14388c1bbb02e011272e055ddf89733192ef7" datatype="html" approved="yes">
+        <source>app.whtransaccionmast.estado</source> <target state="translated">Estado</target> </trans-unit>
+      <trans-unit id="23769c725baaef9e5ed1a47d942705066033a03b" datatype="html" approved="no">
+        <source>app.titulo</source> <target state="needs-translation">Sistema de Control de Almacén</target> </trans-unit>
+      <trans-unit id="2d166c40eaa9f25ec8e210ff4d5e2301bb9c07e8" datatype="html" approved="no">
+        <source>app.login.titulo</source>
+        <target state="needs-translation">Iniciar Sesión</target>
+      </trans-unit>
+      <trans-unit id="573dd2ec70fac8816a484ca5869af80e2329de11" datatype="html" approved="no">
+        <source>app.login.usuario</source>
+        <target state="needs-translation">Usuario</target>
+      </trans-unit>
+      <trans-unit id="b267d460b298cf27ade34482ce5a36b6eccc9fa2" datatype="html" approved="no">
+        <source>app.login.validacion.usuario</source>
+        <target state="needs-translation">Ingrese el usuario.</target>
+      </trans-unit>
+      <trans-unit id="ec7c3e5063dd785eead659bf0827c4747844a651" datatype="html" approved="no">
+        <source>app.login.clave</source>
+        <target state="needs-translation">Contraseña</target>
+      </trans-unit>
+      <trans-unit id="bbbaa61d7dede11acf24e02b42fa79983083140a" datatype="html" approved="no">
+        <source>app.login.validacion.clave</source>
+        <target state="needs-translation">Ingrese la contraseña.</target>
+      </trans-unit>
+      <trans-unit id="5316a0e39a5d1e8caf380276c200f19b97430e6e" datatype="html" approved="yes">
+        <source>app.login.ingresar</source>
+        <target state="translated">Ingresar</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
