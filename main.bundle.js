@@ -2097,6 +2097,7 @@ var ClienteSelectorComponent = (function (_super) {
         this.block.emit();
         var filtroTipoReserva = new __WEBPACK_IMPORTED_MODULE_2__miscelaneo_miscelaneoDetalle__["a" /* MiscelaneoDetalle */]();
         filtroTipoReserva.codigoTabla = __WEBPACK_IMPORTED_MODULE_3__constantes__["d" /* TABLA_TIPO_CLIENTE */];
+        filtroTipoReserva.estado = 'A';
         this.lstTipo = [];
         this.seleccionado = null;
         this.lstTipo.push({ label: ' -- Todos -- ', value: null });
