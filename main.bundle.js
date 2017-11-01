@@ -2090,6 +2090,9 @@ var ClienteSelectorComponent = (function (_super) {
     ClienteSelectorComponent.prototype.ngOnInit = function () {
     };
     ClienteSelectorComponent.prototype.iniciarComponente = function () {
+        this.paginacion = new __WEBPACK_IMPORTED_MODULE_6__home_parametropaginacion__["a" /* ParametroPaginacion */]();
+        this.filtro = new __WEBPACK_IMPORTED_MODULE_5__cliente__["a" /* Cliente */]();
+        this.seleccionado = null;
         this.cargarTipos();
     };
     ClienteSelectorComponent.prototype.cargarTipos = function () {
@@ -2824,6 +2827,8 @@ var REGEXP_PLACA = new RegExp("[a-zA-Z0-9]{3}-[a-zA-Z0-9]{3}");
 var REGEXP_NOT_EMPTY = new RegExp(".*\\S.*");
 var REGEXP_CUENTA = new RegExp("[0-9]{0,12}");
 var REST_URL = "https://104.236.209.20:9000";
+//export const REST_URL = "https://192.168.43.112:8031";
+//xport const REST_URL = "";
 //# sourceMappingURL=constantes.js.map
 
 /***/ }),
