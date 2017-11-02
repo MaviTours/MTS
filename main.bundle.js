@@ -2028,7 +2028,7 @@ var _a, _b, _c, _d;
 /***/ "../../../../../src/app/mavitours/cliente/cliente-selector.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"ui-fluid\">\r\n    <p-dialog header=\"{{'cliente.selector' | translate | uppercase}}\" [(visible)]=\"verSelector\" modal=\"modal\" showEffect=\"fade\"\r\n        hideEffect=\"size\" width=\"800\">\r\n        <p-growl [value]=\"msgs\"></p-growl>\r\n        <p-blockUI [blocked]=\"blocked\">\r\n        </p-blockUI>\r\n        <p-panel header=\"{{'generico.filtros' | translate }}\">\r\n            <div class=\"ui-g\">\r\n                <div class=\"ui-g-12 ui-md-6 ui-lg-1\">\r\n                    <label translate>generico.codigo</label>\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                    <input pInputText [(ngModel)]=\"filtro.id\" />\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                    <label translate>cliente.nombre.raz</label>\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                    <input pInputText [(ngModel)]=\"filtro.razonSocial\" />\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-6 ui-lg-1\">\r\n                    <label translate>generico.tipo</label>\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                    <p-dropdown [style]=\"{'width':'100%'}\" [(ngModel)]=\"filtro.tipo\" [options]=\"lstTipo\"></p-dropdown>\r\n                </div>\r\n            </div>\r\n        </p-panel>\r\n\r\n        <div class=\"ui-g\">\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                <button pButton label=\"{{'btn.buscar' | translate}}\" title=\"{{'btn.buscar' | translate}}\" icon=\"fa fa-search\" type=\"button\"\r\n                    (click)=\"buscar(dtClientes)\" class=\"ui-button-success\"></button>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-8\"></div>\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                <button pButton label=\"{{'btn.salir' | translate}}\" title=\"{{'btn.salir' | translate}}\" icon=\"fa fa-close\" class=\"ui-button-danger\"\r\n                    type=\"button\" (click)=\"salir()\"></button>\r\n            </div>\r\n        </div>\r\n\r\n\r\n        <p-dataTable #dtClientes [responsive]=\"true\" (onRowDblclick)=\"onRowSelect($event)\" (onLazyLoad)=\"cargarClientes($event)\"\r\n            selectionMode=\"single\" [(selection)]=\"seleccionado\" [paginator]=\"true\" [rows]=\"registrosDevolver\" [lazy]=\"true\" [totalRecords]=\"paginacion.registroEncontrados\"\r\n            [value]=\"paginacion.listaResultado\" scrollWidth=\"100% \" scrollable=\"true \" emptyMessage=\"{{ 'generico.no.registro' | translate }}\">\r\n            <p-column header=\"{{'generico.codigo' | translate}}\" field=\"id\" [style]=\"{'width':'10%'}\" styleClass=\"textoCentrado\"></p-column>\r\n            <p-column header=\"{{'cliente.nombre.raz' | translate}}\" field=\"razonSocial\" [style]=\"{'width':'30%'}\"></p-column>\r\n            <p-column header=\"{{'generico.correo' | translate}}\" field=\"correo\" [style]=\"{'width':'30%'}\"></p-column>\r\n            <p-column header=\"{{'generico.tipo' | translate}}\" field=\"tipoNombre\" [style]=\"{'width':'15%'}\"></p-column>\r\n            <p-column header=\"{{'generico.telefono' | translate}}\" field=\"telefono\" [style]=\"{'width':'15%'}\" styleClass=\"textoCentrado\"></p-column>\r\n        </p-dataTable>\r\n\r\n    </p-dialog>\r\n</div>"
+module.exports = "<div class=\"ui-fluid\">\r\n    <p-dialog header=\"{{'cliente.selector' | translate | uppercase}}\" [(visible)]=\"verSelector\" modal=\"modal\" showEffect=\"fade\"\r\n        hideEffect=\"size\" width=\"800\">\r\n        <p-growl [value]=\"msgs\"></p-growl>\r\n        <p-blockUI [blocked]=\"blocked\">\r\n        </p-blockUI>\r\n        <p-panel header=\"{{'generico.filtros' | translate }}\">\r\n            <div class=\"ui-g\">\r\n                <div class=\"ui-g-12 ui-md-6 ui-lg-1\">\r\n                    <label translate>generico.codigo</label>\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                    <input pInputText [(ngModel)]=\"filtro.id\" />\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                    <label translate>cliente.nombre.raz</label>\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                    <input pInputText [(ngModel)]=\"filtro.razonSocial\" />\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-6 ui-lg-1\">\r\n                    <label translate>generico.tipo</label>\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                    <p-dropdown [style]=\"{'width':'100%'}\" [(ngModel)]=\"filtro.tipo\" [options]=\"lstTipo\"></p-dropdown>\r\n                </div>\r\n            </div>\r\n        </p-panel>\r\n\r\n        <div class=\"ui-g\">\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                <button pButton label=\"{{'btn.buscar' | translate}}\" title=\"{{'btn.buscar' | translate}}\" icon=\"fa fa-search\" type=\"button\"\r\n                    (click)=\"buscar()\" class=\"ui-button-success\"></button>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-8\"></div>\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                <button pButton label=\"{{'btn.salir' | translate}}\" title=\"{{'btn.salir' | translate}}\" icon=\"fa fa-close\" class=\"ui-button-danger\"\r\n                    type=\"button\" (click)=\"salir()\"></button>\r\n            </div>\r\n        </div>\r\n\r\n\r\n        <p-dataTable #dtClientes [responsive]=\"true\" (onRowDblclick)=\"onRowSelect($event)\" (onLazyLoad)=\"cargarClientes($event)\"\r\n            selectionMode=\"single\" [(selection)]=\"seleccionado\" [paginator]=\"true\" [rows]=\"registrosDevolver\" [lazy]=\"true\" [totalRecords]=\"paginacion.registroEncontrados\"\r\n            [value]=\"paginacion.listaResultado\" scrollWidth=\"100% \" scrollable=\"true \" emptyMessage=\"{{ 'generico.no.registro' | translate }}\">\r\n            <p-column header=\"{{'generico.codigo' | translate}}\" field=\"id\" [style]=\"{'width':'10%'}\" styleClass=\"textoCentrado\"></p-column>\r\n            <p-column header=\"{{'cliente.nombre.raz' | translate}}\" field=\"razonSocial\" [style]=\"{'width':'30%'}\"></p-column>\r\n            <p-column header=\"{{'generico.correo' | translate}}\" field=\"correo\" [style]=\"{'width':'30%'}\"></p-column>\r\n            <p-column header=\"{{'generico.tipo' | translate}}\" field=\"tipoNombre\" [style]=\"{'width':'15%'}\"></p-column>\r\n            <p-column header=\"{{'generico.telefono' | translate}}\" field=\"telefono\" [style]=\"{'width':'15%'}\" styleClass=\"textoCentrado\"></p-column>\r\n        </p-dataTable>\r\n\r\n    </p-dialog>\r\n</div>"
 
 /***/ }),
 
@@ -2044,6 +2044,8 @@ module.exports = "<div class=\"ui-fluid\">\r\n    <p-dialog header=\"{{'cliente.
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cliente__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__home_parametropaginacion__ = __webpack_require__("../../../../../src/app/home/parametropaginacion.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_primeng_components_datatable_datatable__ = __webpack_require__("../../../../primeng/components/datatable/datatable.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_primeng_components_datatable_datatable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_primeng_components_datatable_datatable__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ClienteSelectorComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -2072,6 +2074,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var ClienteSelectorComponent = (function (_super) {
     __extends(ClienteSelectorComponent, _super);
     function ClienteSelectorComponent(clienteService, miscelaneoService) {
@@ -2091,8 +2094,8 @@ var ClienteSelectorComponent = (function (_super) {
     };
     ClienteSelectorComponent.prototype.iniciarComponente = function () {
         this.paginacion = new __WEBPACK_IMPORTED_MODULE_6__home_parametropaginacion__["a" /* ParametroPaginacion */]();
+        this.dataTableComponent.reset();
         this.filtro = new __WEBPACK_IMPORTED_MODULE_5__cliente__["a" /* Cliente */]();
-        this.seleccionado = null;
         this.cargarTipos();
     };
     ClienteSelectorComponent.prototype.cargarTipos = function () {
@@ -2116,7 +2119,9 @@ var ClienteSelectorComponent = (function (_super) {
         this.paginacion.cantidadRegistrosDevolver = this.registrosDevolver;
         this.clienteService.listarConPaginacion(this.filtro, this.paginacion)
             .then(function (pg) {
+            console.log(_this.paginacion);
             _this.paginacion = pg;
+            console.log(_this.paginacion);
             _this.unBlock.emit();
             _this.verSelector = true;
         });
@@ -2127,8 +2132,8 @@ var ClienteSelectorComponent = (function (_super) {
     ClienteSelectorComponent.prototype.onRowSelect = function (event) {
         this.cargarSeleccionEvent.emit(event.data);
     };
-    ClienteSelectorComponent.prototype.buscar = function (datatable) {
-        datatable.reset();
+    ClienteSelectorComponent.prototype.buscar = function () {
+        this.dataTableComponent.reset();
     };
     ClienteSelectorComponent.prototype.cargarClientes = function (event) {
         var _this = this;
@@ -2148,6 +2153,10 @@ var ClienteSelectorComponent = (function (_super) {
     return ClienteSelectorComponent;
 }(__WEBPACK_IMPORTED_MODULE_0__comun_selector_component__["a" /* SelectorComponent */]));
 __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_8_primeng_components_datatable_datatable__["DataTable"]),
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_8_primeng_components_datatable_datatable__["DataTable"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8_primeng_components_datatable_datatable__["DataTable"]) === "function" && _a || Object)
+], ClienteSelectorComponent.prototype, "dataTableComponent", void 0);
+__decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__angular_core__["Output"])(),
     __metadata("design:type", Object)
 ], ClienteSelectorComponent.prototype, "block", void 0);
@@ -2164,10 +2173,10 @@ ClienteSelectorComponent = __decorate([
         selector: 'cliente-selector',
         template: __webpack_require__("../../../../../src/app/mavitours/cliente/cliente-selector.component.html")
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_4__cliente_service__["a" /* ClienteService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__cliente_service__["a" /* ClienteService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__cliente_service__["a" /* ClienteService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__cliente_service__["a" /* ClienteService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */]) === "function" && _c || Object])
 ], ClienteSelectorComponent);
 
-var _a, _b;
+var _a, _b, _c;
 //# sourceMappingURL=cliente-selector.component.js.map
 
 /***/ }),
