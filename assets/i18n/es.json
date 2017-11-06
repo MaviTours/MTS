@@ -147,5 +147,6 @@
     "dni_error": "El DNI ya ha sido ingresado",
     "brevete_error": "El Brevete ya ha sido ingresado",
     "denominacion_error": "La Denominación ya ha sido ingresada",
-    "placa_error": "La Placa ya ha sido ingresada"
+    "placa_error": "La Placa ya ha sido ingresada",
+    "reserva.fecha": "Fecha Contrato"
 }
