@@ -800,59 +800,60 @@ var _a, _b;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mavitours_empleado_empleado_service__ = __webpack_require__("../../../../../src/app/mavitours/empleado/empleado.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mavitours_empleado_empleado_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/empleado/empleado-mantenimiento.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mavitours_empleado_empleado_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/empleado/empleado-listado.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mavitours_asignacion_recurso_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/asignacion/recurso-selector.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__404_component__ = __webpack_require__("../../../../../src/app/home/404.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__comun_pipes_diaNombre_pipe__ = __webpack_require__("../../../../../src/app/comun/pipes/diaNombre.pipe.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__comun_pipes_dias_pipe__ = __webpack_require__("../../../../../src/app/comun/pipes/dias.pipe.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__mavitours_plan_plan_service__ = __webpack_require__("../../../../../src/app/mavitours/plan/plan.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__mavitours_traslado_traslado_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/traslado/traslado-listado.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__mavitours_asignacion_recurso_traslado_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/asignacion/recurso-traslado-mantenimiento.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__mavitours_asignacion_recurso_traslado_component__ = __webpack_require__("../../../../../src/app/mavitours/asignacion/recurso-traslado.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__mavitours_cliente_cliente_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente-selector.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__mavitours_proveedordeseguro_proveedorsalud_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/proveedordeseguro/proveedorsalud-mantenimiento.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__mavitours_vehiculo_vehiculo_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/vehiculo/vehiculo-mantenimiento.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__mavitours_conductor_conductor_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/conductor/conductor-mantenimiento.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__mavitours_miscelaneo_miscelaneo_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneo-mantenimiento.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__mavitours_cliente_cliente_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente-mantenimiento.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__mavitours_vehiculo_vehiculo_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/vehiculo/vehiculo-listado.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__mavitours_vehiculo_vehiculo_service__ = __webpack_require__("../../../../../src/app/mavitours/vehiculo/vehiculo-service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__mavitours_proveedordeseguro_proveedorsalud_service__ = __webpack_require__("../../../../../src/app/mavitours/proveedordeseguro/proveedorsalud.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__mavitours_conductor_conductor_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/conductor/conductor-listado.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__mavitours_proveedordeseguro_proveedorsalud_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/proveedordeseguro/proveedorsalud-listado.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__mavitours_conductor_conductor_service__ = __webpack_require__("../../../../../src/app/mavitours/conductor/conductor.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__mavitours_miscelaneo_miscelaneo_service__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneo.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__mavitours_traslado_traslado_service__ = __webpack_require__("../../../../../src/app/mavitours/traslado/traslado.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__mavitours_cliente_cliente_service__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__mavitours_reserva_reserva_service__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__mavitours_asignacion_asignacion_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/asignacion/asignacion-listado.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__mavitours_reserva_reserva_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva-listado.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__mavitours_miscelaneo_miscelaneo_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneo-listado.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__mavitours_cliente_cliente_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente-listado.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__seguridad_seguridad_service__ = __webpack_require__("../../../../../src/app/home/seguridad/seguridad.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__shared_shell_app_footer_app_footer_component__ = __webpack_require__("../../../../../src/app/shared/shell/app-footer/app-footer.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__shared_shell_app_tool_bar_app_topbar_component__ = __webpack_require__("../../../../../src/app/shared/shell/app-tool-bar/app.topbar.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__shared_shell_app_menu_app_menu_component__ = __webpack_require__("../../../../../src/app/shared/shell/app-menu/app-menu.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__shared_shell_shell_component__ = __webpack_require__("../../../../../src/app/shared/shell/shell.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__bienvenida_bienvenida_component__ = __webpack_require__("../../../../../src/app/home/bienvenida/bienvenida.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__ = __webpack_require__("../../../../primeng/primeng.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37_primeng_primeng___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_37_primeng_primeng__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__login_login_component__ = __webpack_require__("../../../../../src/app/home/login/login.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__angular_router___ = __webpack_require__("../../../router/@angular/router.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__angular_common_http__ = __webpack_require__("../../../common/@angular/common/http.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__ngx_translate_core__ = __webpack_require__("../../../../@ngx-translate/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__app_module__ = __webpack_require__("../../../../../src/app/app.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__ = __webpack_require__("../../../../../src/app/home/seguridad/seguridad.activator.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__mavitours_reserva_reserva_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva-mantenimiento.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__mavitours_vehiculo_vehiculo_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/vehiculo/vehiculo-selector.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__mavitours_conductor_conductor_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/conductor/conductor-selector.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__comun_pipes_safe_pipe__ = __webpack_require__("../../../../../src/app/comun/pipes/safe.pipe.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__comun_reporte_reportepdf_component__ = __webpack_require__("../../../../../src/app/comun/reporte/reportepdf.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared_shell_contrasenia_contrasenia_mantenimiento_component__ = __webpack_require__("../../../../../src/app/shared/shell/contrasenia/contrasenia-mantenimiento.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mavitours_empleado_empleado_service__ = __webpack_require__("../../../../../src/app/mavitours/empleado/empleado.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mavitours_empleado_empleado_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/empleado/empleado-mantenimiento.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mavitours_empleado_empleado_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/empleado/empleado-listado.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mavitours_asignacion_recurso_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/asignacion/recurso-selector.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__404_component__ = __webpack_require__("../../../../../src/app/home/404.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__comun_pipes_diaNombre_pipe__ = __webpack_require__("../../../../../src/app/comun/pipes/diaNombre.pipe.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__comun_pipes_dias_pipe__ = __webpack_require__("../../../../../src/app/comun/pipes/dias.pipe.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__mavitours_plan_plan_service__ = __webpack_require__("../../../../../src/app/mavitours/plan/plan.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__mavitours_traslado_traslado_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/traslado/traslado-listado.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__mavitours_asignacion_recurso_traslado_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/asignacion/recurso-traslado-mantenimiento.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__mavitours_asignacion_recurso_traslado_component__ = __webpack_require__("../../../../../src/app/mavitours/asignacion/recurso-traslado.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__mavitours_cliente_cliente_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente-selector.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__mavitours_proveedordeseguro_proveedorsalud_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/proveedordeseguro/proveedorsalud-mantenimiento.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__mavitours_vehiculo_vehiculo_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/vehiculo/vehiculo-mantenimiento.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__mavitours_conductor_conductor_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/conductor/conductor-mantenimiento.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__mavitours_miscelaneo_miscelaneo_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneo-mantenimiento.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__mavitours_cliente_cliente_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente-mantenimiento.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__mavitours_vehiculo_vehiculo_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/vehiculo/vehiculo-listado.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__mavitours_vehiculo_vehiculo_service__ = __webpack_require__("../../../../../src/app/mavitours/vehiculo/vehiculo-service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__mavitours_proveedordeseguro_proveedorsalud_service__ = __webpack_require__("../../../../../src/app/mavitours/proveedordeseguro/proveedorsalud.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__mavitours_conductor_conductor_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/conductor/conductor-listado.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__mavitours_proveedordeseguro_proveedorsalud_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/proveedordeseguro/proveedorsalud-listado.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__mavitours_conductor_conductor_service__ = __webpack_require__("../../../../../src/app/mavitours/conductor/conductor.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__mavitours_miscelaneo_miscelaneo_service__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneo.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__mavitours_traslado_traslado_service__ = __webpack_require__("../../../../../src/app/mavitours/traslado/traslado.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__mavitours_cliente_cliente_service__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__mavitours_reserva_reserva_service__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__mavitours_asignacion_asignacion_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/asignacion/asignacion-listado.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__mavitours_reserva_reserva_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva-listado.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__mavitours_miscelaneo_miscelaneo_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneo-listado.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__mavitours_cliente_cliente_listado_component__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente-listado.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__seguridad_seguridad_service__ = __webpack_require__("../../../../../src/app/home/seguridad/seguridad.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__shared_shell_app_footer_app_footer_component__ = __webpack_require__("../../../../../src/app/shared/shell/app-footer/app-footer.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__shared_shell_app_tool_bar_app_topbar_component__ = __webpack_require__("../../../../../src/app/shared/shell/app-tool-bar/app.topbar.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__shared_shell_app_menu_app_menu_component__ = __webpack_require__("../../../../../src/app/shared/shell/app-menu/app-menu.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__shared_shell_shell_component__ = __webpack_require__("../../../../../src/app/shared/shell/shell.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__bienvenida_bienvenida_component__ = __webpack_require__("../../../../../src/app/home/bienvenida/bienvenida.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__ = __webpack_require__("../../../../primeng/primeng.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38_primeng_primeng___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_38_primeng_primeng__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__login_login_component__ = __webpack_require__("../../../../../src/app/home/login/login.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__angular_router___ = __webpack_require__("../../../router/@angular/router.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__angular_common_http__ = __webpack_require__("../../../common/@angular/common/http.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__ngx_translate_core__ = __webpack_require__("../../../../@ngx-translate/core/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__app_module__ = __webpack_require__("../../../../../src/app/app.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__ = __webpack_require__("../../../../../src/app/home/seguridad/seguridad.activator.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__mavitours_reserva_reserva_mantenimiento_component__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva-mantenimiento.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__mavitours_vehiculo_vehiculo_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/vehiculo/vehiculo-selector.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__mavitours_conductor_conductor_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/conductor/conductor-selector.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__comun_pipes_safe_pipe__ = __webpack_require__("../../../../../src/app/comun/pipes/safe.pipe.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__comun_reporte_reportepdf_component__ = __webpack_require__("../../../../../src/app/comun/reporte/reportepdf.component.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -913,83 +914,84 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var routes = [
     {
         path: '',
-        component: __WEBPACK_IMPORTED_MODULE_40__login_login_component__["a" /* LoginComponent */]
+        component: __WEBPACK_IMPORTED_MODULE_41__login_login_component__["a" /* LoginComponent */]
     },
     {
         path: '404',
-        component: __WEBPACK_IMPORTED_MODULE_4__404_component__["a" /* Component404 */]
+        component: __WEBPACK_IMPORTED_MODULE_5__404_component__["a" /* Component404 */]
     },
     {
         path: 'login',
-        component: __WEBPACK_IMPORTED_MODULE_40__login_login_component__["a" /* LoginComponent */]
+        component: __WEBPACK_IMPORTED_MODULE_41__login_login_component__["a" /* LoginComponent */]
     },
     {
         path: 'mavitours',
-        component: __WEBPACK_IMPORTED_MODULE_35__shared_shell_shell_component__["a" /* ShellComponent */],
-        canActivate: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */]],
+        component: __WEBPACK_IMPORTED_MODULE_36__shared_shell_shell_component__["a" /* ShellComponent */],
+        canActivate: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */]],
         children: [
             {
                 path: 'bienvenida',
-                component: __WEBPACK_IMPORTED_MODULE_36__bienvenida_bienvenida_component__["a" /* BienvenidaComponent */],
-                canActivate: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
+                component: __WEBPACK_IMPORTED_MODULE_37__bienvenida_bienvenida_component__["a" /* BienvenidaComponent */],
+                canActivate: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
             },
             {
                 path: 'proveedor-listado',
-                component: __WEBPACK_IMPORTED_MODULE_21__mavitours_proveedordeseguro_proveedorsalud_listado_component__["a" /* ProveedorSaludListadoComponent */],
-                canActivate: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
+                component: __WEBPACK_IMPORTED_MODULE_22__mavitours_proveedordeseguro_proveedorsalud_listado_component__["a" /* ProveedorSaludListadoComponent */],
+                canActivate: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
             },
             {
                 path: 'conductor-listado',
-                component: __WEBPACK_IMPORTED_MODULE_20__mavitours_conductor_conductor_listado_component__["a" /* ConductorListadoComponent */],
-                canActivate: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
+                component: __WEBPACK_IMPORTED_MODULE_21__mavitours_conductor_conductor_listado_component__["a" /* ConductorListadoComponent */],
+                canActivate: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
             },
             {
                 path: 'empleado-listado',
-                component: __WEBPACK_IMPORTED_MODULE_2__mavitours_empleado_empleado_listado_component__["a" /* EmpleadoListadoComponent */],
-                canActivate: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
+                component: __WEBPACK_IMPORTED_MODULE_3__mavitours_empleado_empleado_listado_component__["a" /* EmpleadoListadoComponent */],
+                canActivate: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
             },
             {
                 path: 'cliente-listado',
-                component: __WEBPACK_IMPORTED_MODULE_30__mavitours_cliente_cliente_listado_component__["a" /* ClienteListadoComponent */],
-                canActivate: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
+                component: __WEBPACK_IMPORTED_MODULE_31__mavitours_cliente_cliente_listado_component__["a" /* ClienteListadoComponent */],
+                canActivate: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
             },
             {
                 path: 'miscelaneo-listado',
-                component: __WEBPACK_IMPORTED_MODULE_29__mavitours_miscelaneo_miscelaneo_listado_component__["a" /* MiscelaneoListadoComponent */],
-                canActivate: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
+                component: __WEBPACK_IMPORTED_MODULE_30__mavitours_miscelaneo_miscelaneo_listado_component__["a" /* MiscelaneoListadoComponent */],
+                canActivate: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
             },
             {
                 path: 'reserva-listado',
-                component: __WEBPACK_IMPORTED_MODULE_28__mavitours_reserva_reserva_listado_component__["a" /* ReservaListadoComponent */],
-                canActivate: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
+                component: __WEBPACK_IMPORTED_MODULE_29__mavitours_reserva_reserva_listado_component__["a" /* ReservaListadoComponent */],
+                canActivate: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
             },
             {
                 path: 'reserva-mantenimiento',
-                component: __WEBPACK_IMPORTED_MODULE_47__mavitours_reserva_reserva_mantenimiento_component__["a" /* ReservaMantenimientoComponent */],
-                canActivate: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
+                component: __WEBPACK_IMPORTED_MODULE_48__mavitours_reserva_reserva_mantenimiento_component__["a" /* ReservaMantenimientoComponent */],
+                canActivate: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
             },
             {
                 path: 'reserva-mantenimiento/:reserva',
-                component: __WEBPACK_IMPORTED_MODULE_47__mavitours_reserva_reserva_mantenimiento_component__["a" /* ReservaMantenimientoComponent */],
-                canActivate: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
+                component: __WEBPACK_IMPORTED_MODULE_48__mavitours_reserva_reserva_mantenimiento_component__["a" /* ReservaMantenimientoComponent */],
+                canActivate: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
             },
             {
                 path: 'asignacion-listado',
-                component: __WEBPACK_IMPORTED_MODULE_27__mavitours_asignacion_asignacion_listado_component__["a" /* AsignacionListadoComponent */],
-                canActivate: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
+                component: __WEBPACK_IMPORTED_MODULE_28__mavitours_asignacion_asignacion_listado_component__["a" /* AsignacionListadoComponent */],
+                canActivate: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
             },
             {
                 path: 'vehiculo-listado',
-                component: __WEBPACK_IMPORTED_MODULE_17__mavitours_vehiculo_vehiculo_listado_component__["a" /* VehiculoListadoComponent */],
-                canActivate: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
+                component: __WEBPACK_IMPORTED_MODULE_18__mavitours_vehiculo_vehiculo_listado_component__["a" /* VehiculoListadoComponent */],
+                canActivate: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
             },
             {
                 path: 'traslado-listado/:idReserva',
-                component: __WEBPACK_IMPORTED_MODULE_8__mavitours_traslado_traslado_listado_component__["a" /* TrasladoListadoComponent */],
-                canActivate: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
+                component: __WEBPACK_IMPORTED_MODULE_9__mavitours_traslado_traslado_listado_component__["a" /* TrasladoListadoComponent */],
+                canActivate: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */]]
             }
         ]
     }
@@ -1000,25 +1002,25 @@ var HomeModule = (function () {
     return HomeModule;
 }());
 HomeModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_38__angular_core__["NgModule"])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_39__angular_core__["NgModule"])({
         imports: [
-            __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["ConfirmDialogModule"], __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["ScheduleModule"],
-            __WEBPACK_IMPORTED_MODULE_39__angular_common__["CommonModule"], __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["GalleriaModule"], __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["TooltipModule"],
-            __WEBPACK_IMPORTED_MODULE_42__angular_router___["RouterModule"].forRoot(routes), __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["CheckboxModule"],
-            __WEBPACK_IMPORTED_MODULE_42__angular_router___["RouterModule"].forChild(routes), __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["CalendarModule"], __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["PanelModule"], __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["DataTableModule"], __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["DialogModule"],
-            __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["BlockUIModule"], __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["GrowlModule"], __WEBPACK_IMPORTED_MODULE_41__angular_forms__["FormsModule"], __WEBPACK_IMPORTED_MODULE_41__angular_forms__["ReactiveFormsModule"], __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["DropdownModule"], __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["InputTextModule"],
-            __WEBPACK_IMPORTED_MODULE_43__angular_common_http__["a" /* HttpClientModule */], __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["DataTableModule"], __WEBPACK_IMPORTED_MODULE_41__angular_forms__["FormsModule"], __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["ButtonModule"], __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["SpinnerModule"],
-            __WEBPACK_IMPORTED_MODULE_44__ngx_translate_core__["a" /* TranslateModule */].forRoot({
+            __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["ConfirmDialogModule"], __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["ScheduleModule"],
+            __WEBPACK_IMPORTED_MODULE_40__angular_common__["CommonModule"], __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["GalleriaModule"], __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["TooltipModule"],
+            __WEBPACK_IMPORTED_MODULE_43__angular_router___["RouterModule"].forRoot(routes), __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["CheckboxModule"],
+            __WEBPACK_IMPORTED_MODULE_43__angular_router___["RouterModule"].forChild(routes), __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["CalendarModule"], __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["PanelModule"], __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["DataTableModule"], __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["DialogModule"],
+            __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["BlockUIModule"], __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["GrowlModule"], __WEBPACK_IMPORTED_MODULE_42__angular_forms__["FormsModule"], __WEBPACK_IMPORTED_MODULE_42__angular_forms__["ReactiveFormsModule"], __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["DropdownModule"], __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["InputTextModule"],
+            __WEBPACK_IMPORTED_MODULE_44__angular_common_http__["a" /* HttpClientModule */], __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["DataTableModule"], __WEBPACK_IMPORTED_MODULE_42__angular_forms__["FormsModule"], __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["ButtonModule"], __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["SpinnerModule"],
+            __WEBPACK_IMPORTED_MODULE_45__ngx_translate_core__["a" /* TranslateModule */].forRoot({
                 loader: {
-                    provide: __WEBPACK_IMPORTED_MODULE_44__ngx_translate_core__["b" /* TranslateLoader */],
-                    useFactory: __WEBPACK_IMPORTED_MODULE_45__app_module__["b" /* HttpLoaderFactory */],
-                    deps: [__WEBPACK_IMPORTED_MODULE_43__angular_common_http__["b" /* HttpClient */]]
+                    provide: __WEBPACK_IMPORTED_MODULE_45__ngx_translate_core__["b" /* TranslateLoader */],
+                    useFactory: __WEBPACK_IMPORTED_MODULE_46__app_module__["b" /* HttpLoaderFactory */],
+                    deps: [__WEBPACK_IMPORTED_MODULE_44__angular_common_http__["b" /* HttpClient */]]
                 }
             })
         ],
-        declarations: [__WEBPACK_IMPORTED_MODULE_51__comun_reporte_reportepdf_component__["a" /* ReportePdfComponent */], __WEBPACK_IMPORTED_MODULE_50__comun_pipes_safe_pipe__["a" /* SafePipe */], __WEBPACK_IMPORTED_MODULE_2__mavitours_empleado_empleado_listado_component__["a" /* EmpleadoListadoComponent */], __WEBPACK_IMPORTED_MODULE_1__mavitours_empleado_empleado_mantenimiento_component__["a" /* EmpleadoMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_3__mavitours_asignacion_recurso_selector_component__["a" /* RecursoSelectorComponent */], __WEBPACK_IMPORTED_MODULE_4__404_component__["a" /* Component404 */], __WEBPACK_IMPORTED_MODULE_5__comun_pipes_diaNombre_pipe__["a" /* DiaNombrePipe */], __WEBPACK_IMPORTED_MODULE_6__comun_pipes_dias_pipe__["a" /* DiasPipe */], __WEBPACK_IMPORTED_MODULE_8__mavitours_traslado_traslado_listado_component__["a" /* TrasladoListadoComponent */], __WEBPACK_IMPORTED_MODULE_9__mavitours_asignacion_recurso_traslado_mantenimiento_component__["a" /* RecursoTrasladoMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_10__mavitours_asignacion_recurso_traslado_component__["a" /* RecursoTrasladoComponent */], __WEBPACK_IMPORTED_MODULE_40__login_login_component__["a" /* LoginComponent */], __WEBPACK_IMPORTED_MODULE_36__bienvenida_bienvenida_component__["a" /* BienvenidaComponent */], __WEBPACK_IMPORTED_MODULE_21__mavitours_proveedordeseguro_proveedorsalud_listado_component__["a" /* ProveedorSaludListadoComponent */], __WEBPACK_IMPORTED_MODULE_35__shared_shell_shell_component__["a" /* ShellComponent */], __WEBPACK_IMPORTED_MODULE_34__shared_shell_app_menu_app_menu_component__["a" /* AppMenuComponent */], __WEBPACK_IMPORTED_MODULE_34__shared_shell_app_menu_app_menu_component__["b" /* AppSubMenu */], __WEBPACK_IMPORTED_MODULE_33__shared_shell_app_tool_bar_app_topbar_component__["a" /* AppTopBar */], __WEBPACK_IMPORTED_MODULE_32__shared_shell_app_footer_app_footer_component__["a" /* AppFooterComponent */], __WEBPACK_IMPORTED_MODULE_20__mavitours_conductor_conductor_listado_component__["a" /* ConductorListadoComponent */], __WEBPACK_IMPORTED_MODULE_30__mavitours_cliente_cliente_listado_component__["a" /* ClienteListadoComponent */], __WEBPACK_IMPORTED_MODULE_29__mavitours_miscelaneo_miscelaneo_listado_component__["a" /* MiscelaneoListadoComponent */], __WEBPACK_IMPORTED_MODULE_28__mavitours_reserva_reserva_listado_component__["a" /* ReservaListadoComponent */], __WEBPACK_IMPORTED_MODULE_27__mavitours_asignacion_asignacion_listado_component__["a" /* AsignacionListadoComponent */], __WEBPACK_IMPORTED_MODULE_17__mavitours_vehiculo_vehiculo_listado_component__["a" /* VehiculoListadoComponent */], __WEBPACK_IMPORTED_MODULE_16__mavitours_cliente_cliente_mantenimiento_component__["a" /* ClienteMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_15__mavitours_miscelaneo_miscelaneo_mantenimiento_component__["a" /* MiscelaneoMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_14__mavitours_conductor_conductor_mantenimiento_component__["a" /* ConductorMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_13__mavitours_vehiculo_vehiculo_mantenimiento_component__["a" /* VechiculoMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_12__mavitours_proveedordeseguro_proveedorsalud_mantenimiento_component__["a" /* ProveedorSaludMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_47__mavitours_reserva_reserva_mantenimiento_component__["a" /* ReservaMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_11__mavitours_cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */], __WEBPACK_IMPORTED_MODULE_48__mavitours_vehiculo_vehiculo_selector_component__["a" /* VehiculoSelectorComponent */], __WEBPACK_IMPORTED_MODULE_49__mavitours_conductor_conductor_selector_component__["a" /* ConductorSelectorComponent */]],
-        providers: [__WEBPACK_IMPORTED_MODULE_46__seguridad_seguridad_activator__["a" /* SeguridadActivator */], __WEBPACK_IMPORTED_MODULE_0__mavitours_empleado_empleado_service__["a" /* EmpleadoService */], __WEBPACK_IMPORTED_MODULE_7__mavitours_plan_plan_service__["a" /* PlanService */], __WEBPACK_IMPORTED_MODULE_37_primeng_primeng__["ConfirmationService"], __WEBPACK_IMPORTED_MODULE_19__mavitours_proveedordeseguro_proveedorsalud_service__["a" /* ProveedorSaludService */], __WEBPACK_IMPORTED_MODULE_31__seguridad_seguridad_service__["a" /* SeguridadService */], __WEBPACK_IMPORTED_MODULE_26__mavitours_reserva_reserva_service__["a" /* ReservaService */], __WEBPACK_IMPORTED_MODULE_25__mavitours_cliente_cliente_service__["a" /* ClienteService */], __WEBPACK_IMPORTED_MODULE_24__mavitours_traslado_traslado_service__["a" /* TrasladoService */], __WEBPACK_IMPORTED_MODULE_23__mavitours_miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */], __WEBPACK_IMPORTED_MODULE_22__mavitours_conductor_conductor_service__["a" /* ConductorService */], __WEBPACK_IMPORTED_MODULE_18__mavitours_vehiculo_vehiculo_service__["a" /* VehiculoService */]],
-        exports: [__WEBPACK_IMPORTED_MODULE_35__shared_shell_shell_component__["a" /* ShellComponent */]]
+        declarations: [__WEBPACK_IMPORTED_MODULE_52__comun_reporte_reportepdf_component__["a" /* ReportePdfComponent */], __WEBPACK_IMPORTED_MODULE_51__comun_pipes_safe_pipe__["a" /* SafePipe */], __WEBPACK_IMPORTED_MODULE_3__mavitours_empleado_empleado_listado_component__["a" /* EmpleadoListadoComponent */], __WEBPACK_IMPORTED_MODULE_2__mavitours_empleado_empleado_mantenimiento_component__["a" /* EmpleadoMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_4__mavitours_asignacion_recurso_selector_component__["a" /* RecursoSelectorComponent */], __WEBPACK_IMPORTED_MODULE_5__404_component__["a" /* Component404 */], __WEBPACK_IMPORTED_MODULE_6__comun_pipes_diaNombre_pipe__["a" /* DiaNombrePipe */], __WEBPACK_IMPORTED_MODULE_7__comun_pipes_dias_pipe__["a" /* DiasPipe */], __WEBPACK_IMPORTED_MODULE_9__mavitours_traslado_traslado_listado_component__["a" /* TrasladoListadoComponent */], __WEBPACK_IMPORTED_MODULE_10__mavitours_asignacion_recurso_traslado_mantenimiento_component__["a" /* RecursoTrasladoMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_11__mavitours_asignacion_recurso_traslado_component__["a" /* RecursoTrasladoComponent */], __WEBPACK_IMPORTED_MODULE_41__login_login_component__["a" /* LoginComponent */], __WEBPACK_IMPORTED_MODULE_37__bienvenida_bienvenida_component__["a" /* BienvenidaComponent */], __WEBPACK_IMPORTED_MODULE_22__mavitours_proveedordeseguro_proveedorsalud_listado_component__["a" /* ProveedorSaludListadoComponent */], __WEBPACK_IMPORTED_MODULE_36__shared_shell_shell_component__["a" /* ShellComponent */], __WEBPACK_IMPORTED_MODULE_35__shared_shell_app_menu_app_menu_component__["a" /* AppMenuComponent */], __WEBPACK_IMPORTED_MODULE_35__shared_shell_app_menu_app_menu_component__["b" /* AppSubMenu */], __WEBPACK_IMPORTED_MODULE_34__shared_shell_app_tool_bar_app_topbar_component__["a" /* AppTopBar */], __WEBPACK_IMPORTED_MODULE_33__shared_shell_app_footer_app_footer_component__["a" /* AppFooterComponent */], __WEBPACK_IMPORTED_MODULE_21__mavitours_conductor_conductor_listado_component__["a" /* ConductorListadoComponent */], __WEBPACK_IMPORTED_MODULE_31__mavitours_cliente_cliente_listado_component__["a" /* ClienteListadoComponent */], __WEBPACK_IMPORTED_MODULE_30__mavitours_miscelaneo_miscelaneo_listado_component__["a" /* MiscelaneoListadoComponent */], __WEBPACK_IMPORTED_MODULE_29__mavitours_reserva_reserva_listado_component__["a" /* ReservaListadoComponent */], __WEBPACK_IMPORTED_MODULE_28__mavitours_asignacion_asignacion_listado_component__["a" /* AsignacionListadoComponent */], __WEBPACK_IMPORTED_MODULE_18__mavitours_vehiculo_vehiculo_listado_component__["a" /* VehiculoListadoComponent */], __WEBPACK_IMPORTED_MODULE_17__mavitours_cliente_cliente_mantenimiento_component__["a" /* ClienteMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_16__mavitours_miscelaneo_miscelaneo_mantenimiento_component__["a" /* MiscelaneoMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_15__mavitours_conductor_conductor_mantenimiento_component__["a" /* ConductorMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_14__mavitours_vehiculo_vehiculo_mantenimiento_component__["a" /* VechiculoMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_13__mavitours_proveedordeseguro_proveedorsalud_mantenimiento_component__["a" /* ProveedorSaludMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_48__mavitours_reserva_reserva_mantenimiento_component__["a" /* ReservaMantenimientoComponent */], __WEBPACK_IMPORTED_MODULE_12__mavitours_cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */], __WEBPACK_IMPORTED_MODULE_49__mavitours_vehiculo_vehiculo_selector_component__["a" /* VehiculoSelectorComponent */], __WEBPACK_IMPORTED_MODULE_50__mavitours_conductor_conductor_selector_component__["a" /* ConductorSelectorComponent */], __WEBPACK_IMPORTED_MODULE_0__shared_shell_contrasenia_contrasenia_mantenimiento_component__["a" /* ContraseniaMantenientoComponent */]],
+        providers: [__WEBPACK_IMPORTED_MODULE_47__seguridad_seguridad_activator__["a" /* SeguridadActivator */], __WEBPACK_IMPORTED_MODULE_1__mavitours_empleado_empleado_service__["a" /* EmpleadoService */], __WEBPACK_IMPORTED_MODULE_8__mavitours_plan_plan_service__["a" /* PlanService */], __WEBPACK_IMPORTED_MODULE_38_primeng_primeng__["ConfirmationService"], __WEBPACK_IMPORTED_MODULE_20__mavitours_proveedordeseguro_proveedorsalud_service__["a" /* ProveedorSaludService */], __WEBPACK_IMPORTED_MODULE_32__seguridad_seguridad_service__["a" /* SeguridadService */], __WEBPACK_IMPORTED_MODULE_27__mavitours_reserva_reserva_service__["a" /* ReservaService */], __WEBPACK_IMPORTED_MODULE_26__mavitours_cliente_cliente_service__["a" /* ClienteService */], __WEBPACK_IMPORTED_MODULE_25__mavitours_traslado_traslado_service__["a" /* TrasladoService */], __WEBPACK_IMPORTED_MODULE_24__mavitours_miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */], __WEBPACK_IMPORTED_MODULE_23__mavitours_conductor_conductor_service__["a" /* ConductorService */], __WEBPACK_IMPORTED_MODULE_19__mavitours_vehiculo_vehiculo_service__["a" /* VehiculoService */]],
+        exports: [__WEBPACK_IMPORTED_MODULE_36__shared_shell_shell_component__["a" /* ShellComponent */]]
     })
 ], HomeModule);
 
@@ -1326,6 +1328,18 @@ var SeguridadService = (function () {
             return p.data;
         });
     };
+    SeguridadService.prototype.cambiarClave = function (usuario, clave, clave1, clave2) {
+        var params = new __WEBPACK_IMPORTED_MODULE_3__angular_http__["c" /* URLSearchParams */]();
+        params.set('usuario', usuario);
+        params.set('clave', clave);
+        params.set('clave1', clave1);
+        params.set('clave2', clave2);
+        return this.http.get(this.url + "cambiarClave", { search: params })
+            .toPromise()
+            .then(function (r) {
+            return r.json();
+        });
+    };
     return SeguridadService;
 }());
 SeguridadService = __decorate([
@@ -1356,7 +1370,7 @@ var UsuarioActual = (function () {
 /***/ "../../../../../src/app/mavitours/asignacion/asignacion-listado.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p-growl [value]=\"msgs\"></p-growl>\r\n<p-blockUI #pnl [blocked]=\"blocked\">\r\n    <div class=\"ui-g\" style=\"position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;width:100px;height: 100px;\">\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n            <i class=\"fa fa-circle-o-notch fa-spin fa-5x\" style=\"color:white; margin: 0 auto;\"></i>\r\n        </div>\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\" style=\"color:white; margin: 0 auto;\">\r\n            <strong>Procesando</strong>\r\n        </div>\r\n    </div>\r\n</p-blockUI>\r\n<div class=\"ui-fluid\" #frm>\r\n    <p-panel header=\"{{'asignacion.titulo' | translate | uppercase}} : {{'generico.filtros' | translate }}\">\r\n        <div class=\"ui-g ui-md ui-lg\">\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>cliente.descripcion</label>\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-3 ui-lg-3\">\r\n                <input pInputText type=\"text\" disabled style=\"width:20%\" [ngModel]=\"cliente.id\" />\r\n                <input pInputText type=\"text\" disabled style=\"width:78%\" [ngModel]=\"cliente.razonSocial\" />\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-2 ui-lg-1\">\r\n                <button pButton icon=\"fa fa-binoculars\" class=\"ui-button\" type=\"button\" (click)=\"iniciarSelectorCliente()\"></button>\r\n                <button pButton icon=\"fa fa-trash\" class=\"ui-button\" type=\"button\" (click)=\"limpiarCliente()\"></button>\r\n            </div>\r\n        </div>\r\n    </p-panel>\r\n\r\n    <div class=\"ui-g ui-md ui-lg\">\r\n        <div class=\"ui-g-7 ui-md-10 ui-lg-11\"></div>\r\n        <div class=\"ui-g-5 ui-md-2 ui-lg-1\">\r\n            <button pButton label=\"{{'btn.buscar' | translate}}\" icon=\"fa fa-binoculars\" class=\"ui-button\" type=\"button\" title=\"{{'btn.buscar' | translate}}\"\r\n                (click)=\"buscar(dtAsignaciones)\"></button>\r\n        </div>\r\n    </div>\r\n\r\n    <p-dataTable #dtAsignaciones (onLazyLoad)=\"cargarTraslados($event)\" [responsive]=\"true\" [paginator]=\"true\" [rows]=\"registrosDevolver\"\r\n        [lazy]=\"true\" [totalRecords]=\"paginacion.registroEncontrados\" [value]=\"paginacion.listaResultado\" scrollWidth=\"100% \"\r\n        scrollable=\"true \" emptyMessage=\"{{ 'generico.no.registro' | translate }}\">\r\n\r\n        <p-column header=\"{{'cliente.descripcion' | translate}}\" field=\"clienteNombre\" [style]=\"{'width':'200px'}\"></p-column>\r\n        <p-column header=\"{{'reserva.descripcion' | translate}}\" field=\"nroReserva\" [style]=\"{'width':'50px'}\"></p-column>\r\n        <p-column header=\"{{'plan.descripcion' | translate}} \" field=\"nroPlan\" [style]=\"{'width':'50px'}\"></p-column>\r\n        <p-column header=\"{{'traslado.descripcion' | translate}}\" field=\"nroTraslado\" [style]=\"{'width':'50px'}\"></p-column>\r\n        <p-column header=\"{{'plan.punto.partida' | translate}} \" field=\"ptoPartida\" [style]=\"{'width':'200px'}\"></p-column>\r\n        <p-column header=\"{{'plan.hora.partida' | translate}}\" field=\"horaPartidaNombre\" [style]=\"{'width':'70px'}\" styleClass=\"textoCentrado\"></p-column>\r\n        <p-column header=\"{{'vehiculo.capacidad' | translate}}\" [style]=\"{'width':'70px'}\" styleClass=\"textoCentrado\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                <div class=\"ui-g\">\r\n                    <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n                        <label>{{tx.actual}}/{{tx.capacidad}}</label>\r\n                    </div>\r\n                </div>\r\n            </ng-template>\r\n        </p-column>\r\n        <p-column header=\"{{'generico.estado' | translate}}\" field=\"estadoNombre\" [style]=\"{'width':'70px'}\"></p-column>\r\n        <p-column header=\"{{'generico.accion' | translate}}\" styleClass=\"textoCentrado\" [style]=\"{'width':'70px'}\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                <i class=\"fa fa-pencil fa-lg seleccionable\" (click)=\"verRecursos(tx)\" title=\"{{'btn.recursos' | translate}}\"></i>\r\n            </ng-template>\r\n        </p-column>\r\n    </p-dataTable>\r\n    <cliente-selector (cargarSeleccionEvent)=\"cargarCliente($event)\" (block)=\"bloquearPagina()\" (unBlock)=\"desbloquearPagina()\"></cliente-selector>\r\n    <recurso-traslado></recurso-traslado>\r\n"
+module.exports = "<p-growl [value]=\"msgs\"></p-growl>\r\n<p-blockUI #pnl [blocked]=\"blocked\">\r\n    <div class=\"ui-g\" style=\"position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;width:100px;height: 100px;\">\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n            <i class=\"fa fa-circle-o-notch fa-spin fa-5x\" style=\"color:white; margin: 0 auto;\"></i>\r\n        </div>\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\" style=\"color:white; margin: 0 auto;\">\r\n            <strong>Procesando</strong>\r\n        </div>\r\n    </div>\r\n</p-blockUI>\r\n<div class=\"ui-fluid\" #frm>\r\n    <p-panel header=\"{{'asignacion.titulo' | translate | uppercase}} : {{'generico.filtros' | translate }}\">\r\n        <div class=\"ui-g ui-md ui-lg\">\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>cliente.descripcion</label>\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-3 ui-lg-3\">\r\n                <input pInputText type=\"text\" disabled style=\"width:20%\" [ngModel]=\"cliente.id\" />\r\n                <input pInputText type=\"text\" disabled style=\"width:78%\" [ngModel]=\"cliente.razonSocial\" />\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-2 ui-lg-1\">\r\n                <button pButton icon=\"fa fa-binoculars\" class=\"ui-button\" type=\"button\" (click)=\"iniciarSelectorCliente()\"></button>\r\n                <button pButton icon=\"fa fa-trash\" class=\"ui-button\" type=\"button\" (click)=\"limpiarCliente()\"></button>\r\n            </div>\r\n        </div>\r\n    </p-panel>\r\n\r\n    <div class=\"ui-g ui-md ui-lg\">\r\n        <div class=\"ui-g-7 ui-md-10 ui-lg-11\"></div>\r\n        <div class=\"ui-g-5 ui-md-2 ui-lg-1\">\r\n            <button pButton label=\"{{'btn.buscar' | translate}}\" icon=\"fa fa-binoculars\" class=\"ui-button\" type=\"button\" title=\"{{'btn.buscar' | translate}}\"\r\n                (click)=\"buscar(dtAsignaciones)\"></button>\r\n        </div>\r\n    </div>\r\n\r\n    <p-dataTable #dtAsignaciones (onLazyLoad)=\"cargarTraslados($event)\" [responsive]=\"true\" [paginator]=\"true\" [rows]=\"registrosDevolver\"\r\n        [lazy]=\"true\" [totalRecords]=\"paginacion.registroEncontrados\" [value]=\"paginacion.listaResultado\" scrollWidth=\"100% \"\r\n        scrollable=\"true \" emptyMessage=\"{{ 'generico.no.registro' | translate }}\">\r\n\r\n        <p-column header=\"{{'cliente.descripcion' | translate}}\" field=\"clienteNombre\" [style]=\"{'width':'200px'}\"></p-column>\r\n        <p-column header=\"{{'reserva.descripcion' | translate}}\" field=\"nroReserva\" [style]=\"{'width':'50px'}\"></p-column>\r\n        <p-column header=\"{{'plan.descripcion' | translate}} \" field=\"nroPlan\" [style]=\"{'width':'50px'}\"></p-column>\r\n        <p-column header=\"{{'traslado.descripcion' | translate}}\" field=\"nroTraslado\" [style]=\"{'width':'50px'}\"></p-column>\r\n        <p-column header=\"{{'plan.punto.partida' | translate}} \" field=\"ptoPartida\" [style]=\"{'width':'200px'}\"></p-column>\r\n        <p-column header=\"{{'plan.hora.partida' | translate}}\" field=\"horaPartidaNombre\" [style]=\"{'width':'70px'}\" styleClass=\"textoCentrado\"></p-column>\r\n        <p-column header=\"{{'vehiculo.capacidad' | translate}}\" [style]=\"{'width':'70px'}\" styleClass=\"textoCentrado\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                <div class=\"ui-g\">\r\n                    <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n                        <label>{{tx.actual}}/{{tx.capacidad}}</label>\r\n                    </div>\r\n                </div>\r\n            </ng-template>\r\n        </p-column>\r\n        <p-column header=\"{{'generico.estado' | translate}}\" field=\"estadoNombre\" [style]=\"{'width':'70px'}\"></p-column>\r\n        <p-column header=\"{{'generico.accion' | translate}}\" styleClass=\"textoCentrado\" [style]=\"{'width':'70px'}\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                <i *ngIf=\"tx.estado != 'X'\" class=\"fa fa-pencil fa-lg seleccionable\" (click)=\"verRecursos(tx)\" title=\"{{'btn.recursos' | translate}}\"></i>\r\n                <i *ngIf=\"tx.estado == 'X'\" class=\"fa fa-pencil fa-lg seleccionable\" title=\"{{'btn.recursos' | translate}}\"></i>\r\n            </ng-template>\r\n        </p-column>\r\n    </p-dataTable>\r\n    <cliente-selector (cargarSeleccionEvent)=\"cargarCliente($event)\" (block)=\"bloquearPagina()\" (unBlock)=\"desbloquearPagina()\"></cliente-selector>\r\n    <recurso-traslado (cargarListadoEvent)=\"listar()\"></recurso-traslado>"
 
 /***/ }),
 
@@ -1364,14 +1378,16 @@ module.exports = "<p-growl [value]=\"msgs\"></p-growl>\r\n<p-blockUI #pnl [block
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__recurso_traslado_component__ = __webpack_require__("../../../../../src/app/mavitours/asignacion/recurso-traslado.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__traslado_traslado_service__ = __webpack_require__("../../../../../src/app/mavitours/traslado/traslado.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_parametropaginacion__ = __webpack_require__("../../../../../src/app/home/parametropaginacion.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__traslado_traslado__ = __webpack_require__("../../../../../src/app/mavitours/traslado/traslado.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cliente_cliente_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente-selector.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__comun_basecomponent__ = __webpack_require__("../../../../../src/app/comun/basecomponent.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__cliente_cliente__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_primeng_components_datatable_datatable__ = __webpack_require__("../../../../primeng/components/datatable/datatable.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_primeng_components_datatable_datatable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_primeng_components_datatable_datatable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__recurso_traslado_component__ = __webpack_require__("../../../../../src/app/mavitours/asignacion/recurso-traslado.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__traslado_traslado_service__ = __webpack_require__("../../../../../src/app/mavitours/traslado/traslado.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_parametropaginacion__ = __webpack_require__("../../../../../src/app/home/parametropaginacion.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__traslado_traslado__ = __webpack_require__("../../../../../src/app/mavitours/traslado/traslado.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cliente_cliente_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente-selector.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__comun_basecomponent__ = __webpack_require__("../../../../../src/app/comun/basecomponent.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__cliente_cliente__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AsignacionListadoComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -1400,24 +1416,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var AsignacionListadoComponent = (function (_super) {
     __extends(AsignacionListadoComponent, _super);
     function AsignacionListadoComponent(trasladoService) {
         var _this = _super.call(this) || this;
         _this.trasladoService = trasladoService;
-        _this.cliente = new __WEBPACK_IMPORTED_MODULE_7__cliente_cliente__["a" /* Cliente */]();
-        _this.filtro = new __WEBPACK_IMPORTED_MODULE_3__traslado_traslado__["a" /* Traslado */]();
-        _this.paginacion = new __WEBPACK_IMPORTED_MODULE_2__home_parametropaginacion__["a" /* ParametroPaginacion */]();
+        _this.cliente = new __WEBPACK_IMPORTED_MODULE_8__cliente_cliente__["a" /* Cliente */]();
+        _this.filtro = new __WEBPACK_IMPORTED_MODULE_4__traslado_traslado__["a" /* Traslado */]();
+        _this.paginacion = new __WEBPACK_IMPORTED_MODULE_3__home_parametropaginacion__["a" /* ParametroPaginacion */]();
         return _this;
     }
     AsignacionListadoComponent.prototype.ngOnInit = function () {
         this.bloquearPagina();
         this.filtro.fecha = new Date();
         this.filtro.auxReserva = null;
+        this.filtro.estado = 'P';
         this.filtro.fecha.setDate(this.filtro.fecha.getDate() + 1);
     };
     AsignacionListadoComponent.prototype.buscar = function (dt) {
         dt.reset();
+    };
+    AsignacionListadoComponent.prototype.listar = function () {
+        this.dataTableComponent.reset();
     };
     AsignacionListadoComponent.prototype.iniciarSelectorCliente = function () {
         this.clienteSelectorComponent.iniciarComponente();
@@ -1451,23 +1472,27 @@ var AsignacionListadoComponent = (function (_super) {
         console.log(res);
     };
     return AsignacionListadoComponent;
-}(__WEBPACK_IMPORTED_MODULE_6__comun_basecomponent__["a" /* BaseComponent */]));
+}(__WEBPACK_IMPORTED_MODULE_7__comun_basecomponent__["a" /* BaseComponent */]));
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_4__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */]),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_4__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */]) === "function" && _a || Object)
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_5__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */]),
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_5__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */]) === "function" && _a || Object)
 ], AsignacionListadoComponent.prototype, "clienteSelectorComponent", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_0__recurso_traslado_component__["a" /* RecursoTrasladoComponent */]),
-    __metadata("design:type", typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0__recurso_traslado_component__["a" /* RecursoTrasladoComponent */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__recurso_traslado_component__["a" /* RecursoTrasladoComponent */]) === "function" && _b || Object)
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1__recurso_traslado_component__["a" /* RecursoTrasladoComponent */]),
+    __metadata("design:type", typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__recurso_traslado_component__["a" /* RecursoTrasladoComponent */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__recurso_traslado_component__["a" /* RecursoTrasladoComponent */]) === "function" && _b || Object)
 ], AsignacionListadoComponent.prototype, "recursoTrasladoComponent", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_0_primeng_components_datatable_datatable__["DataTable"]),
+    __metadata("design:type", typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_0_primeng_components_datatable_datatable__["DataTable"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0_primeng_components_datatable_datatable__["DataTable"]) === "function" && _c || Object)
+], AsignacionListadoComponent.prototype, "dataTableComponent", void 0);
 AsignacionListadoComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__angular_core__["Component"])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__angular_core__["Component"])({
         template: __webpack_require__("../../../../../src/app/mavitours/asignacion/asignacion-listado.component.html")
     }),
-    __metadata("design:paramtypes", [typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__traslado_traslado_service__["a" /* TrasladoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__traslado_traslado_service__["a" /* TrasladoService */]) === "function" && _c || Object])
+    __metadata("design:paramtypes", [typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__traslado_traslado_service__["a" /* TrasladoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__traslado_traslado_service__["a" /* TrasladoService */]) === "function" && _d || Object])
 ], AsignacionListadoComponent);
 
-var _a, _b, _c;
+var _a, _b, _c, _d;
 //# sourceMappingURL=asignacion-listado.component.js.map
 
 /***/ }),
@@ -1699,6 +1724,8 @@ var RecursoTrasladoMantenimientoComponent = (function (_super) {
         this.accionNombre = this.getAccionNombre();
         this.recurso = new __WEBPACK_IMPORTED_MODULE_1__traslado_trasladodetalle__["a" /* TrasladoDetalle */]();
         this.recurso.capacidad = 1;
+        this.recurso.nroReserva = this.traslado.nroReserva;
+        this.recurso.nroPlan = this.traslado.nroPlan;
         this.maximo = this.traslado.libre;
         this.recurso.nroTraslado = this.traslado.nroTraslado;
     };
@@ -1746,7 +1773,7 @@ var _a, _b;
 /***/ "../../../../../src/app/mavitours/asignacion/recurso-traslado.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "a\r\n<div class=\"ui-fluid\">\r\n    <p-dialog header=\"{{'traslado.recurso' | translate | uppercase}}\" [(visible)]=\"verModal\" modal=\"modal\" showEffect=\"fade\"\r\n        hideEffect=\"size\" width=\"950\">\r\n        <p-growl [value]=\"msgs\"></p-growl>\r\n        <p-blockUI #pnl [blocked]=\"blocked\">\r\n            <div class=\"ui-g\" style=\"position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;width:100px;height: 100px;\">\r\n                <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n                    <i class=\"fa fa-circle-o-notch fa-spin fa-5x\" style=\"color:white; margin: 0 auto;\"></i>\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-12 ui-lg-12\" style=\"color:white; margin: 0 auto;\">\r\n                    <strong>Procesando</strong>\r\n                </div>\r\n            </div>\r\n        </p-blockUI>\r\n        <div class=\"ui-g\">\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                <button pButton label=\"{{'btn.agregar' | translate}}\" [disabled]=\"cantidadOcupada>=traslado.capacidad\" title=\"{{'btn.agregar' | translate}}\"\r\n                    icon=\"fa fa-search\" type=\"button\" (click)=\"agregar()\" class=\"ui-button-success\"></button>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-8\" style=\"text-align:center;font-weight:bold\">\r\n                {{cantidadOcupada}} / {{traslado.capacidad}}\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                <button pButton label=\"{{'btn.salir' | translate}}\" title=\"{{'btn.salir' | translate}}\" icon=\"fa fa-close\" class=\"ui-button-danger\"\r\n                    type=\"button\" (click)=\"salir()\"></button>\r\n            </div>\r\n        </div>\r\n        <p-dataTable #dtRecursos [responsive]=\"true\" scrollWidth=\"100%\" scrollable=\"true\" emptyMessage=\"{{ 'generico.no.registro' | translate }}\"\r\n            [value]=\"lstDetalle\">\r\n            <p-column header=\"{{'generico.codigo' | translate}}\" field=\"nroDetalleTraslado\" [style]=\"{'width':'10%'}\" styleClass=\"textoCentrado\"></p-column>\r\n            <p-column header=\"{{'conductor.descripcion' | translate}}\" field=\"conductorNombre\" [style]=\"{'width':'20%'}\"></p-column>\r\n            <p-column header=\"{{'generico.telefono' | translate}}\" field=\"conductorTelefono\" [style]=\"{'width':'15%'}\" styleClass=\"textoCentrado\"></p-column>\r\n            <p-column header=\"{{'vehiculo.placa' | translate}}\" field=\"vehiculoPlaca\" [style]=\"{'width':'15%'}\" styleClass=\"textoCentrado\"></p-column>\r\n            <p-column header=\"{{'vehiculo.denominacion' | translate}}\" field=\"vehiculoDenominacion\" [style]=\"{'width':'20%'}\"></p-column>\r\n            <p-column header=\"{{'vehiculo.capacidad' | translate}}\" field=\"capacidad\" [style]=\"{'width':'10%'}\" styleClass=\"textoDerecha\"></p-column>\r\n            <p-column header=\"{{'generico.accion' | translate}}\" styleClass=\"textoCentrado\" [style]=\"{'width':'10%'}\">\r\n                <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                    <div class=\"ui-g\">\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6\" title=\"{{'btn.editar' | translate}}\">\r\n                            <i class=\"fa fa-pencil fa-lg seleccionable\" (click)=\"editar(tx)\"></i>\r\n                        </div>\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6\" title=\"{{'btn.eliminar' | translate}}\">\r\n                            <i class=\"fa fa-remove fa-lg seleccionable\" (click)=\"eliminar(tx)\"></i>\r\n                        </div>\r\n                    </div>\r\n                </ng-template>\r\n            </p-column>\r\n        </p-dataTable>\r\n\r\n    </p-dialog>\r\n</div>\r\n<recurso-traslado-mantenimiento (cargarListadoEvent)=\"listarPor2()\"></recurso-traslado-mantenimiento>"
+module.exports = "<div class=\"ui-fluid\">\r\n    <p-dialog header=\"{{'traslado.recurso' | translate | uppercase}}\" [(visible)]=\"verModal\" modal=\"modal\" showEffect=\"fade\"\r\n        hideEffect=\"size\" width=\"950\">\r\n        <p-growl [value]=\"msgs\"></p-growl>\r\n        <p-blockUI #pnl [blocked]=\"blocked\">\r\n            <div class=\"ui-g\" style=\"position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;width:100px;height: 100px;\">\r\n                <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n                    <i class=\"fa fa-circle-o-notch fa-spin fa-5x\" style=\"color:white; margin: 0 auto;\"></i>\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-12 ui-lg-12\" style=\"color:white; margin: 0 auto;\">\r\n                    <strong>Procesando</strong>\r\n                </div>\r\n            </div>\r\n        </p-blockUI>\r\n        <div class=\"ui-g\">\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                <button pButton label=\"{{'btn.agregar' | translate}}\" [disabled]=\"cantidadOcupada>=traslado.capacidad\" title=\"{{'btn.agregar' | translate}}\"\r\n                    icon=\"fa fa-search\" type=\"button\" (click)=\"agregar()\" class=\"ui-button-success\"></button>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-8\" style=\"text-align:center;font-weight:bold\">\r\n                {{cantidadOcupada}} / {{traslado.capacidad}}\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                <button pButton label=\"{{'btn.salir' | translate}}\" title=\"{{'btn.salir' | translate}}\" icon=\"fa fa-close\" class=\"ui-button-danger\"\r\n                    type=\"button\" (click)=\"salir()\"></button>\r\n            </div>\r\n        </div>\r\n        <p-dataTable #dtRecursos [responsive]=\"true\" scrollWidth=\"100%\" scrollable=\"true\" emptyMessage=\"{{ 'generico.no.registro' | translate }}\"\r\n            [value]=\"lstDetalle\">\r\n            <p-column header=\"{{'generico.codigo' | translate}}\" field=\"nroDetalleTraslado\" [style]=\"{'width':'10%'}\" styleClass=\"textoCentrado\"></p-column>\r\n            <p-column header=\"{{'conductor.descripcion' | translate}}\" field=\"conductorNombre\" [style]=\"{'width':'20%'}\"></p-column>\r\n            <p-column header=\"{{'generico.telefono' | translate}}\" field=\"conductorTelefono\" [style]=\"{'width':'15%'}\" styleClass=\"textoCentrado\"></p-column>\r\n            <p-column header=\"{{'vehiculo.placa' | translate}}\" field=\"vehiculoPlaca\" [style]=\"{'width':'15%'}\" styleClass=\"textoCentrado\"></p-column>\r\n            <p-column header=\"{{'vehiculo.denominacion' | translate}}\" field=\"vehiculoDenominacion\" [style]=\"{'width':'20%'}\"></p-column>\r\n            <p-column header=\"{{'vehiculo.capacidad' | translate}}\" field=\"capacidad\" [style]=\"{'width':'10%'}\" styleClass=\"textoDerecha\"></p-column>\r\n            <p-column header=\"{{'generico.accion' | translate}}\" styleClass=\"textoCentrado\" [style]=\"{'width':'10%'}\">\r\n                <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                    <div class=\"ui-g\">\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6\" title=\"{{'btn.editar' | translate}}\">\r\n                            <i class=\"fa fa-pencil fa-lg seleccionable\" (click)=\"editar(tx)\"></i>\r\n                        </div>\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6\" title=\"{{'btn.eliminar' | translate}}\">\r\n                            <i class=\"fa fa-remove fa-lg seleccionable\" (click)=\"eliminar(tx)\"></i>\r\n                        </div>\r\n                    </div>\r\n                </ng-template>\r\n            </p-column>\r\n        </p-dataTable>\r\n\r\n    </p-dialog>\r\n</div>\r\n<recurso-traslado-mantenimiento (cargarListadoEvent)=\"listarPor2()\"></recurso-traslado-mantenimiento>"
 
 /***/ }),
 
@@ -3701,6 +3728,13 @@ var PlanService = (function () {
             return p.data;
         });
     };
+    PlanService.prototype.anular = function (bean) {
+        return this.http.post(this.url + "anular", bean)
+            .toPromise().then(function (response) {
+            var p = response.json();
+            return p.res;
+        });
+    };
     return PlanService;
 }());
 PlanService = __decorate([
@@ -4051,7 +4085,7 @@ var ProveedorSalud = (function () {
 /***/ "../../../../../src/app/mavitours/reserva/reserva-listado.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p-growl [value]=\"msgs\"></p-growl>\r\n<p-blockUI #pnl [blocked]=\"blocked\">\r\n    <div class=\"ui-g\" style=\"position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;width:100px;height: 100px;\">\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n            <i class=\"fa fa-circle-o-notch fa-spin fa-5x\" style=\"color:white; margin: 0 auto;\"></i>\r\n        </div>\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\" style=\"color:white; margin: 0 auto;\">\r\n            <strong>Procesando</strong>\r\n        </div>\r\n    </div>\r\n</p-blockUI>\r\n<div class=\"ui-fluid\" #frm>\r\n    <p-panel header=\"{{'reserva.titulo' | translate | uppercase}} : {{'generico.filtros' | translate }}\">\r\n        <div class=\"ui-g ui-md ui-lg\">\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>generico.codigo</label>\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1\">\r\n                <input pInputText type=\"text\" style=\"width:100%\" [(ngModel)]=\"filtro.id\" />\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>cliente.descripcion</label>\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-3 ui-lg-3\">\r\n                <input pInputText type=\"text\" disabled style=\"width:20%\" [ngModel]=\"filtro.cliente\" />\r\n                <input pInputText type=\"text\" disabled style=\"width:78%\" [ngModel]=\"filtro.clienteNombre\" />\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-2 ui-lg-1\">\r\n                <button pButton icon=\"fa fa-binoculars\" class=\"ui-button\" type=\"button\" (click)=\"iniciarSelectorCliente()\"></button>\r\n                <button pButton icon=\"fa fa-trash\" class=\"ui-button\" type=\"button\" (click)=\"limpiarCliente()\"></button>\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>generico.tipo</label>\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-2 ui-lg-2\">\r\n                <p-dropdown [style]=\"{'width':'100%'}\" [options]=\"lstTipo\" [(ngModel)]=\"filtro.tipoReserva\"></p-dropdown>\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>reserva.fecha</label>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-2 ui-lg-1\">\r\n                <p-calendar [showIcon]=\"true\" dateFormat=\"dd/mm/yy\" [(ngModel)]=\"filtro.fechaContrato\"></p-calendar>\r\n            </div>\r\n\r\n\r\n        </div>\r\n    </p-panel>\r\n    <div class=\"ui-g ui-md ui-lg \">\r\n        <div class=\"ui-g-5 ui-md-2 ui-lg-1 \">\r\n            <button pButton label=\"{{'btn.nuevo' | translate}} \" icon=\"fa fa-plus \" class=\"ui-button \" type=\"button\" (click)=\"nuevo()\"></button>\r\n        </div>\r\n        <div class=\"ui-g-2 ui-md-8 ui-lg-10 \"></div>\r\n        <div class=\"ui-g-5 ui-md-2 ui-lg-1 \">\r\n            <button pButton label=\"{{'btn.buscar' | translate}} \" icon=\"fa fa-binoculars \" class=\"ui-button \" type=\"button\" (click)=\"buscar(dtReserva)\"></button>\r\n        </div>\r\n    </div>\r\n    <p-dataTable #dtReserva [paginator]=\"true\" (onLazyLoad)=\"cargarReservas($event)\" [responsive]=\"true\" [rows]=\"registrosDevolver\"\r\n        [lazy]=\"true\" [totalRecords]=\"paginacion.registroEncontrados\" [value]=\"paginacion.listaResultado\" scrollWidth=\"100% \"\r\n        scrollable=\"true \" emptyMessage=\"{{ 'generico.no.registro' | translate }}\">\r\n        <p-column header=\"{{'reserva.nro' | translate}}\" field=\"id\" [style]=\"{'width':'8%'}\" styleClass=\"textoCentrado\"></p-column>\r\n        <p-column header=\"{{'cliente.descripcion' | translate}}\" field=\"clienteNombre\" [style]=\"{'width':'52%'}\"></p-column>\r\n        <p-column header=\"{{'reserva.fecha' | translate}}\" [style]=\"{'width':'10%'}\" styleClass=\"textoCentrado\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                {{tx.fechaContrato | date: 'dd/MM/yyyy'}}\r\n            </ng-template>\r\n        </p-column>\r\n        <p-column header=\"{{'generico.tipo' | translate}}\" field=\"tipoReservaNombre\" [style]=\"{'width':'10%'}\"></p-column>\r\n        <p-column header=\"{{'reserva.rango' | translate}}\" [style]=\"{'width':'15%'}\" styleClass=\"textoCentrado\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                {{tx.fechaInicio | date: 'dd/MM/yyyy'}} - {{tx.fechaFin | date: 'dd/MM/yyyy'}}\r\n            </ng-template>\r\n        </p-column>\r\n        <p-column header=\"{{'generico.accion' | translate}}\" styleClass=\"textoCentrado\" [style]=\"{'width':'10%'}\">\r\n            <ng-template let-tx=\"rowData \" pTemplate=\"body \">\r\n                <div class=\"ui-g \">\r\n                    <div class=\"ui-g-6 ui-md-6 ui-lg-6 \" title=\"{{'btn.ver.editar' | translate}} \">\r\n                        <i class=\"fa fa-pencil fa-lg seleccionable\" (click)=\"editar(tx)\"></i>\r\n                    </div>\r\n                    <div class=\"ui-g-6 ui-md-6 ui-lg-6 \" title=\"{{'btn.ver.traslados' | translate}}\">\r\n                        <i class=\"fa fa-search fa-lg seleccionable\" (click)=\"verTraslados(tx)\"></i>\r\n                    </div>\r\n                </div>\r\n            </ng-template>\r\n        </p-column>\r\n    </p-dataTable>\r\n    <cliente-selector (cargarSeleccionEvent)=\"cargarCliente($event)\" (block)=\"bloquearPagina()\" (unBlock)=\"desbloquearPagina()\"></cliente-selector>"
+module.exports = "<p-growl [value]=\"msgs\"></p-growl>\r\n<p-blockUI #pnl [blocked]=\"blocked\">\r\n    <div class=\"ui-g\" style=\"position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;width:100px;height: 100px;\">\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n            <i class=\"fa fa-circle-o-notch fa-spin fa-5x\" style=\"color:white; margin: 0 auto;\"></i>\r\n        </div>\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\" style=\"color:white; margin: 0 auto;\">\r\n            <strong>Procesando</strong>\r\n        </div>\r\n    </div>\r\n</p-blockUI>\r\n<div class=\"ui-fluid\" #frm>\r\n    <p-panel header=\"{{'reserva.titulo' | translate | uppercase}} : {{'generico.filtros' | translate }}\">\r\n        <div class=\"ui-g ui-md ui-lg\">\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>generico.codigo</label>\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1\">\r\n                <input pInputText type=\"text\" style=\"width:100%\" [(ngModel)]=\"filtro.id\" />\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>cliente.descripcion</label>\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-3 ui-lg-2\">\r\n                <input pInputText type=\"text\" disabled style=\"width:20%\" [ngModel]=\"filtro.cliente\" />\r\n                <input pInputText type=\"text\" disabled style=\"width:78%\" [ngModel]=\"filtro.clienteNombre\" />\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-2 ui-lg-1\">\r\n                <button pButton icon=\"fa fa-binoculars\" class=\"ui-button\" type=\"button\" (click)=\"iniciarSelectorCliente()\"></button>\r\n                <button pButton icon=\"fa fa-trash\" class=\"ui-button\" type=\"button\" (click)=\"limpiarCliente()\"></button>\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>generico.tipo</label>\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-2 ui-lg-1\">\r\n                <p-dropdown [style]=\"{'width':'100%'}\" [options]=\"lstTipo\" [(ngModel)]=\"filtro.tipoReserva\"></p-dropdown>\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>generico.estado</label>\r\n            </div>\r\n\r\n            <div class=\"ui-g-12 ui-md-2 ui-lg-1\">\r\n                <p-dropdown [style]=\"{'width':'100%'}\" [options]=\"lstEstado\" [(ngModel)]=\"filtro.estado\"></p-dropdown>\r\n            </div>\r\n\r\n\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>reserva.fecha</label>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-2 ui-lg-1\">\r\n                <p-calendar [showIcon]=\"true\" dateFormat=\"dd/mm/yy\" [(ngModel)]=\"filtro.fechaContrato\"></p-calendar>\r\n            </div>\r\n\r\n\r\n        </div>\r\n    </p-panel>\r\n    <div class=\"ui-g ui-md ui-lg \">\r\n        <div class=\"ui-g-5 ui-md-2 ui-lg-1 \">\r\n            <button pButton label=\"{{'btn.nuevo' | translate}} \" icon=\"fa fa-plus \" class=\"ui-button \" type=\"button\" (click)=\"nuevo()\"></button>\r\n        </div>\r\n        <div class=\"ui-g-2 ui-md-8 ui-lg-10 \"></div>\r\n        <div class=\"ui-g-5 ui-md-2 ui-lg-1 \">\r\n            <button pButton label=\"{{'btn.buscar' | translate}} \" icon=\"fa fa-binoculars \" class=\"ui-button \" type=\"button\" (click)=\"buscar(dtReserva)\"></button>\r\n        </div>\r\n    </div>\r\n    <p-dataTable #dtReserva [paginator]=\"true\" (onLazyLoad)=\"cargarReservas($event)\" [responsive]=\"true\" [rows]=\"registrosDevolver\"\r\n        [lazy]=\"true\" [totalRecords]=\"paginacion.registroEncontrados\" [value]=\"paginacion.listaResultado\" scrollWidth=\"100% \"\r\n        scrollable=\"true \" emptyMessage=\"{{ 'generico.no.registro' | translate }}\">\r\n        <p-column header=\"{{'reserva.nro' | translate}}\" field=\"id\" [style]=\"{'width':'8%'}\" styleClass=\"textoCentrado\"></p-column>\r\n        <p-column header=\"{{'cliente.descripcion' | translate}}\" field=\"clienteNombre\" [style]=\"{'width':'42%'}\"></p-column>\r\n        <p-column header=\"{{'reserva.fecha' | translate}}\" [style]=\"{'width':'10%'}\" styleClass=\"textoCentrado\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                {{tx.fechaContrato | date: 'dd/MM/yyyy'}}\r\n            </ng-template>\r\n        </p-column>\r\n        <p-column header=\"{{'generico.tipo' | translate}}\" field=\"tipoReservaNombre\" [style]=\"{'width':'10%'}\"></p-column>\r\n        <p-column header=\"{{'reserva.rango' | translate}}\" [style]=\"{'width':'15%'}\" styleClass=\"textoCentrado\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                {{tx.fechaInicio | date: 'dd/MM/yyyy'}} - {{tx.fechaFin | date: 'dd/MM/yyyy'}}\r\n            </ng-template>\r\n        </p-column>\r\n        <p-column header=\"{{'generico.estado' | translate}}\" [style]=\"{'width':'10%'}\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                {{tx.estado=='S'?'Registrada':'Anulada'}}\r\n            </ng-template>\r\n        </p-column>\r\n        <p-column header=\"{{'generico.accion' | translate}}\" styleClass=\"textoCentrado\" [style]=\"{'width':'10%'}\">\r\n            <ng-template let-tx=\"rowData \" pTemplate=\"body \">\r\n                <div class=\"ui-g \" *ngIf=\"tx.estado!='X'\">\r\n                    <div class=\"ui-g-4 ui-md-4 ui-lg-4 \" title=\"{{'btn.editar' | translate}} \">\r\n                        <i class=\"fa fa-pencil fa-lg seleccionable\" (click)=\"editar(tx)\"></i>\r\n                    </div>\r\n                    <div class=\"ui-g-4 ui-md-4 ui-lg-4 \" title=\"{{'btn.ver.traslados' | translate}}\">\r\n                        <i class=\"fa fa-search fa-lg seleccionable\" (click)=\"verTraslados(tx)\"></i>\r\n                    </div>\r\n                    <div class=\"ui-g-4 ui-md-4 ui-lg-4 \" title=\"{{'btn.anular' | translate}} \">\r\n                        <i class=\"fa fa-times fa-lg seleccionable\" (click)=\"anular(tx)\"></i>\r\n                    </div>\r\n                </div>\r\n                <div class=\"ui-g \" *ngIf=\"tx.estado=='X'\">\r\n                    <div class=\"ui-g-4 ui-md-4 ui-lg-4 \" title=\"{{'btn.editar' | translate}} \">\r\n                        <i class=\"fa fa-pencil fa-lg seleccionable\"></i>\r\n                    </div>\r\n                    <div class=\"ui-g-4 ui-md-4 ui-lg-4 \" title=\"{{'btn.ver.traslados' | translate}}\">\r\n                        <i class=\"fa fa-search fa-lg seleccionable\"></i>\r\n                    </div>\r\n                    <div class=\"ui-g-4 ui-md-4 ui-lg-4 \" title=\"{{'btn.anular' | translate}} \">\r\n                        <i class=\"fa fa-times fa-lg seleccionable\"></i>\r\n                    </div>\r\n                </div>\r\n            </ng-template>\r\n        </p-column>\r\n    </p-dataTable>\r\n    <cliente-selector (cargarSeleccionEvent)=\"cargarCliente($event)\" (block)=\"bloquearPagina()\" (unBlock)=\"desbloquearPagina()\"></cliente-selector>\r\n    <p-confirmDialog #cd>\r\n        <p-footer>\r\n            <button type=\"button\" pButton icon=\"fa-check\" label=\"Si\" (click)=\"cd.accept()\"></button>\r\n            <button type=\"button\" pButton icon=\"fa-close\" label=\"No\" (click)=\"cd.reject()\"></button>\r\n        </p-footer>\r\n    </p-confirmDialog>\r\n    <p-dialog header=\"{{'btn.anular' | translate | uppercase}}\" [(visible)]=\"verModalAnular\" modal=\"modal\" showEffect=\"fade\"\r\n        width=\"300\">\r\n\r\n        <div class=\"ui-g\">\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-12 \">\r\n                <p-checkbox binary=\"true\" [ngModel]=\"anularReserva\" label=\"Reserva\" [disabled]=\"true\"></p-checkbox>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-12 \">\r\n                <p-checkbox binary=\"true\" [ngModel]=\"anularPlan\" label=\"Planes\" [disabled]=\"true\"></p-checkbox>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-12 \">\r\n                <p-checkbox binary=\"true\" [(ngModel)]=\"anularTrasladosEjecutados\" label=\"Traslados ejecutados\"></p-checkbox>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"ui-g \">\r\n            <div class=\"ui-g-4 ui-md-4 ui-lg-4 \">\r\n                <button pButton label=\"{{ 'btn.aceptar' | translate}} \" title=\"{{ 'btn.aceptar' | translate}}\r\n                                \" icon=\"fa fa-check \" type=\"button \" (click)=\"aceptarAnular() \" class=\"ui-button \"></button>\r\n            </div>\r\n            <div class=\"ui-g-4 ui-md-4 ui-lg-4 \"></div>\r\n            <div class=\"ui-g-4 ui-md-4 ui-lg-4 \">\r\n                <button pButton label=\"{{ 'btn.cancelar' | translate}} \" title=\"{{ 'btn.cancelar' | translate}} \" icon=\"fa\r\n                                fa-mail-reply \" class=\"ui-button \" type=\"button \" (click)=\"verModalAnular=false\"></button>\r\n            </div>\r\n        </div>\r\n    </p-dialog>"
 
 /***/ }),
 
@@ -4059,16 +4093,20 @@ module.exports = "<p-growl [value]=\"msgs\"></p-growl>\r\n<p-blockUI #pnl [block
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__home_parametropaginacion__ = __webpack_require__("../../../../../src/app/home/parametropaginacion.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constantes__ = __webpack_require__("../../../../../src/app/mavitours/constantes.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__miscelaneo_miscelaneoDetalle__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneoDetalle.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__miscelaneo_miscelaneo_service__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneo.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cliente_cliente_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente-selector.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__reserva_service__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__reserva__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__comun_basecomponent__ = __webpack_require__("../../../../../src/app/comun/basecomponent.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_primeng_components_datatable_datatable__ = __webpack_require__("../../../../primeng/components/datatable/datatable.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_primeng_components_datatable_datatable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_primeng_components_datatable_datatable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_parametropaginacion__ = __webpack_require__("../../../../../src/app/home/parametropaginacion.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constantes__ = __webpack_require__("../../../../../src/app/mavitours/constantes.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__miscelaneo_miscelaneoDetalle__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneoDetalle.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__miscelaneo_miscelaneo_service__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneo.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cliente_cliente_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente-selector.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__reserva_service__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__reserva__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_primeng_primeng__ = __webpack_require__("../../../../primeng/primeng.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_primeng_primeng___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_primeng_primeng__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__comun_basecomponent__ = __webpack_require__("../../../../../src/app/comun/basecomponent.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ReservaListadoComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -4099,29 +4137,41 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
 var ReservaListadoComponent = (function (_super) {
     __extends(ReservaListadoComponent, _super);
-    function ReservaListadoComponent(router, reservaService, miscelaneoService) {
+    function ReservaListadoComponent(confirmationService, router, reservaService, miscelaneoService) {
         var _this = _super.call(this) || this;
+        _this.confirmationService = confirmationService;
         _this.router = router;
         _this.reservaService = reservaService;
         _this.miscelaneoService = miscelaneoService;
-        _this.filtro = new __WEBPACK_IMPORTED_MODULE_6__reserva__["a" /* Reserva */]();
+        _this.filtro = new __WEBPACK_IMPORTED_MODULE_7__reserva__["a" /* Reserva */]();
         _this.lstTipo = [];
-        _this.paginacion = new __WEBPACK_IMPORTED_MODULE_0__home_parametropaginacion__["a" /* ParametroPaginacion */]();
+        _this.lstEstado = [];
+        _this.paginacion = new __WEBPACK_IMPORTED_MODULE_1__home_parametropaginacion__["a" /* ParametroPaginacion */]();
+        _this.verModalAnular = false;
+        _this.anularReserva = true;
+        _this.anularPlan = true;
+        _this.anularTrasladosEjecutados = false;
         return _this;
     }
     ReservaListadoComponent.prototype.ini = function () {
     };
     ReservaListadoComponent.prototype.ngOnInit = function () {
         var _this = this;
-        var filtroTipoReserva = new __WEBPACK_IMPORTED_MODULE_2__miscelaneo_miscelaneoDetalle__["a" /* MiscelaneoDetalle */]();
-        filtroTipoReserva.codigoTabla = __WEBPACK_IMPORTED_MODULE_1__constantes__["u" /* TABLA_TIPO_RESERVA */];
+        var filtroTipoReserva = new __WEBPACK_IMPORTED_MODULE_3__miscelaneo_miscelaneoDetalle__["a" /* MiscelaneoDetalle */]();
+        filtroTipoReserva.codigoTabla = __WEBPACK_IMPORTED_MODULE_2__constantes__["u" /* TABLA_TIPO_RESERVA */];
         this.lstTipo.push({ label: ' -- Todos -- ', value: null });
         this.miscelaneoService.listado(filtroTipoReserva).then(function (res) {
             res.forEach(function (reg) { return _this.lstTipo.push({ label: reg.descripcion, value: reg.codigoElemento }); });
             _this.filtro.tipoReserva = null;
         });
+        this.lstEstado.push({ label: ' -- Todos -- ', value: null });
+        this.lstEstado.push({ label: 'Resgistrada', value: 'S' });
+        this.lstEstado.push({ label: 'Anulada', value: 'X' });
+        this.filtro.estado = null;
     };
     ReservaListadoComponent.prototype.buscar = function (dt) {
         dt.reset();
@@ -4160,20 +4210,55 @@ var ReservaListadoComponent = (function (_super) {
     ReservaListadoComponent.prototype.verTraslados = function (bean) {
         this.router.navigate(['mavitours/traslado-listado', bean.id], { skipLocationChange: true });
     };
+    ReservaListadoComponent.prototype.anular = function (bean) {
+        var _this = this;
+        this.confirmationService.confirm({
+            header: 'Confirmación',
+            message: '¿Desea anular el registro?',
+            accept: function () {
+                _this.iniciarModalAnular(bean);
+            }
+        });
+    };
+    ReservaListadoComponent.prototype.iniciarModalAnular = function (bean) {
+        this.reservaSeleccionada = bean;
+        this.anularReserva = true;
+        this.anularPlan = true;
+        this.anularTrasladosEjecutados = false;
+        this.verModalAnular = true;
+    };
+    ReservaListadoComponent.prototype.aceptarAnular = function () {
+        var _this = this;
+        this.bloquearPagina();
+        this.reservaSeleccionada.reserva = this.anularReserva;
+        this.reservaSeleccionada.planes = this.anularPlan;
+        this.reservaSeleccionada.traslados = this.anularTrasladosEjecutados;
+        this.reservaService.anular(this.reservaSeleccionada).then(function (res) {
+            _this.verModalAnular = false;
+            _this.msgs = [];
+            _this.msgs.push({ severity: 'success', summary: 'Información', detail: res });
+            _this.desbloquearPagina();
+            _this.datatable.reset();
+        });
+    };
     return ReservaListadoComponent;
-}(__WEBPACK_IMPORTED_MODULE_9__comun_basecomponent__["a" /* BaseComponent */]));
+}(__WEBPACK_IMPORTED_MODULE_11__comun_basecomponent__["a" /* BaseComponent */]));
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_4__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */]),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_4__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */]) === "function" && _a || Object)
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_5__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */]),
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_5__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */]) === "function" && _a || Object)
 ], ReservaListadoComponent.prototype, "clienteSelectorComponent", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_0_primeng_components_datatable_datatable__["DataTable"]),
+    __metadata("design:type", typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0_primeng_components_datatable_datatable__["DataTable"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0_primeng_components_datatable_datatable__["DataTable"]) === "function" && _b || Object)
+], ReservaListadoComponent.prototype, "datatable", void 0);
 ReservaListadoComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__angular_core__["Component"])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__angular_core__["Component"])({
         template: __webpack_require__("../../../../../src/app/mavitours/reserva/reserva-listado.component.html")
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_8__angular_router__["Router"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8__angular_router__["Router"]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_5__reserva_service__["a" /* ReservaService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__reserva_service__["a" /* ReservaService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */]) === "function" && _d || Object])
+    __metadata("design:paramtypes", [typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_10_primeng_primeng__["ConfirmationService"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_10_primeng_primeng__["ConfirmationService"]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_9__angular_router__["Router"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_9__angular_router__["Router"]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_6__reserva_service__["a" /* ReservaService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__reserva_service__["a" /* ReservaService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_4__miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */]) === "function" && _f || Object])
 ], ReservaListadoComponent);
 
-var _a, _b, _c, _d;
+var _a, _b, _c, _d, _e, _f;
 //# sourceMappingURL=reserva-listado.component.js.map
 
 /***/ }),
@@ -4181,7 +4266,7 @@ var _a, _b, _c, _d;
 /***/ "../../../../../src/app/mavitours/reserva/reserva-mantenimiento.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p-growl [value]=\"msgs\"></p-growl>\r\n<p-blockUI #pnl [blocked]=\"blocked\">\r\n    <div class=\"ui-g\" style=\"position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;width:100px;height: 100px;\">\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n            <i class=\"fa fa-circle-o-notch fa-spin fa-5x\" style=\"color:white; margin: 0 auto;\"></i>\r\n        </div>\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\" style=\"color:white; margin: 0 auto;\">\r\n            <strong>Procesando</strong>\r\n        </div>\r\n    </div>\r\n</p-blockUI>\r\n<div class=\"ui-fluid\" #frm>\r\n    <p-panel header=\"{{'reserva.descripcion' | translate | uppercase}} : {{accionNombre}}\">\r\n        <div class=\"ui-g\">\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>reserva.tipo</label>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-2\">\r\n                <p-dropdown [disabled]=\"accion == ACCIONES.EDITAR\" [style]=\"{'width':'100%'}\" [options]=\"lstTipoReserva\" [(ngModel)]=\"reserva.tipoReserva\"></p-dropdown>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"ui-g\">\r\n            <div class=\"ui-g-12 ui-md-3 ui-lg-3 ui-g-nopad\">\r\n                <p-panel header=\"{{'reserva.tiempo.contrato' |  translate}}\" [style]=\"{'height':'100%'}\">\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-4\">\r\n                            <label translate>generico.inicio</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-8\">\r\n                            <p-calendar [disabled]=\"accion == ACCIONES.EDITAR\" [showIcon]=\"true\" dateFormat=\"dd/mm/yy\" [(ngModel)]=\"reserva.fechaInicio\"></p-calendar>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-4\">\r\n                            <label translate>generico.fin</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-8\">\r\n                            <p-calendar [disabled]=\"accion == ACCIONES.EDITAR\" [showIcon]=\"true\" dateFormat=\"dd/mm/yy\" [(ngModel)]=\"reserva.fechaFin\"></p-calendar>\r\n                        </div>\r\n                    </div>\r\n                </p-panel>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-9 ui-lg-9 ui-g-nopad\">\r\n                <p-panel header=\"{{'cliente.descripcion' |  translate}}\" [style]=\"{'height':'100%'}\">\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>generico.codigo</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-1\">\r\n                            <input pInputText [ngModel]=\"reserva.cliente\" disabled />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-2 ui-lg-1\">\r\n                            <button [disabled]=\"accion == ACCIONES.EDITAR\" pButton icon=\"fa fa-binoculars\" class=\"ui-button\" type=\"button\" (click)=\"iniciarSelectorCliente()\"></button>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>cliente.raz</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-8\">\r\n                            <input pInputText [ngModel]=\"cliente.razonSocial\" disabled/>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>generico.telefono</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-2\">\r\n                            <input pInputText [ngModel]=\"cliente.telefono\" disabled/>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>generico.correo</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-8\">\r\n                            <input pInputText [ngModel]=\"cliente.correo\" disabled/>\r\n                        </div>\r\n\r\n                    </div>\r\n                </p-panel>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"ui-g\">\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-12 ui-g-nopad\">\r\n                <p-panel header=\"{{'plan.descripcion' |  translate}}\" [style]=\"{'height':'100%'}\">\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>vehiculo.capacidad</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-6 ui-lg-1\">\r\n                            <p-spinner [disabled]=\"!grabaPlan\" size=\"30\" [min]=\"0\" [max]=\"999\" [(ngModel)]=\"planActual.capacidad\"></p-spinner>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>plan.tipo</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-1 ui-lg-2\">\r\n                            <p-dropdown [disabled]=\"!grabaPlan\" [style]=\"{'width':'100%'}\" [options]=\"lstTipoPlan\" [(ngModel)]=\"planActual.tipoPlan\"></p-dropdown>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-6\">\r\n\r\n                        </div>\r\n                        <div class=\"ui-g-5 ui-md-2 ui-lg-1 \">\r\n                            <button pButton label=\"{{'btn.nuevo' | translate}} \" icon=\"fa fa-plus \" class=\"ui-button \" type=\"button\" title=\"{{'btn.nuevo' | translate}}\"\r\n                                (click)=\"nuevoPlan()\"></button>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.lunes\" binary=\"true\" label=\"{{'generico.lunes' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.martes\" binary=\"true\" label=\"{{'generico.martes' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.miercoles\" binary=\"true\" label=\"{{'generico.miercoles' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.jueves\" binary=\"true\" label=\"{{'generico.jueves' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.viernes\" binary=\"true\" label=\"{{'generico.viernes' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.sabado\" binary=\"true\" label=\"{{'generico.sabado' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.domingo\" binary=\"true\" label=\"{{'generico.domingo' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-4\">\r\n\r\n                        </div>\r\n                        <div class=\"ui-g-5 ui-md-2 ui-lg-1 \" *ngIf=\"agrega && grabaPlan\">\r\n                            <button pButton label=\"{{'btn.agregar' | translate}} \" [disabled]=\"planActual.tipoPlan == 0\" icon=\"fa fa-save \" class=\"ui-button \"\r\n                                type=\"button\" title=\"{{'btn.agregar' | translate}}\" (click)=\"agregarPlan()\"></button>\r\n                        </div>\r\n                        <div class=\"ui-g-5 ui-md-2 ui-lg-1 \" *ngIf=\"!agrega && grabaPlan\">\r\n                            <button pButton label=\"{{'btn.guardar' | translate}} \" [disabled]=\"planActual.tipoPlan == 0\" icon=\"fa fa-save \" class=\"ui-button \"\r\n                                type=\"button\" title=\"{{'btn.guardar' | translate}}\" (click)=\"guardarPlan()\"></button>\r\n                        </div>\r\n                    </div>\r\n                </p-panel>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"ui-g\" *ngIf=\"planActual.tipoPlan != 0\">\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-12 ui-g-nopad\" *ngIf=\"planActual.tipoPlan == 1\">\r\n                <p-panel header=\"{{'plan.ida' |  translate}}\" [style]=\"{'height':'100%'}\">\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>plan.punto.partida</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-3\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.puntoPartidaIda\" />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>plan.hora.partida</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-1\">\r\n                            <p-calendar [disabled]=\"!grabaPlan\" [timeOnly]=\"true\" [(ngModel)]=\"planActual.horaPartidaIda\"></p-calendar>\r\n                        </div>\r\n\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>plan.punto.destino</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-3\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.puntoDestinoIda\" />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>plan.hora.destino</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-1\">\r\n                            <p-calendar [disabled]=\"!grabaPlan\" [timeOnly]=\"true\" [(ngModel)]=\"planActual.horaDestinoIda\"></p-calendar>\r\n                        </div>\r\n\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>plan.ruta.especifica</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-11\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.rutaEspecificaIda\" />\r\n                        </div>\r\n                    </div>\r\n                </p-panel>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-6 ui-g-nopad\" *ngIf=\"planActual.tipoPlan == 2\">\r\n                <p-panel header=\"{{'plan.ida' |  translate}}\" [style]=\"{'height':'100%'}\">\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.punto.partida</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-4\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.puntoPartidaIda\" />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.hora.partida</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-2\">\r\n                            <p-calendar [disabled]=\"!grabaPlan\" [timeOnly]=\"true\" [(ngModel)]=\"planActual.horaPartidaIda\"></p-calendar>\r\n                        </div>\r\n\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.punto.destino</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-4\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.puntoDestinoIda\" />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.hora.destino</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-2\">\r\n                            <p-calendar [disabled]=\"!grabaPlan\" [timeOnly]=\"true\" [(ngModel)]=\"planActual.horaDestinoIda\"></p-calendar>\r\n                        </div>\r\n\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.ruta.especifica</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-9\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.rutaEspecificaIda\" />\r\n                        </div>\r\n                    </div>\r\n                </p-panel>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-6 ui-g-nopad\" *ngIf=\"planActual.tipoPlan == 2\">\r\n                <p-panel header=\"{{'plan.retorno' |  translate}}\" [style]=\"{'height':'100%'}\">\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.punto.partida</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-4\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.puntoPartidaVuelta\" />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.hora.partida</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-2\">\r\n                            <p-calendar [disabled]=\"!grabaPlan\" [timeOnly]=\"true\" [(ngModel)]=\"planActual.horaPartidaVuelta\"></p-calendar>\r\n                        </div>\r\n\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.punto.destino</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-4\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.puntoDestinoVuelta\" />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.hora.destino</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-2\">\r\n                            <p-calendar [disabled]=\"!grabaPlan\" [timeOnly]=\"true\" [(ngModel)]=\"planActual.horaDestinoVuelta\"></p-calendar>\r\n                        </div>\r\n\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.ruta.especifica</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-9\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.rutaEspecificaVuelta\" />\r\n                        </div>\r\n                    </div>\r\n                </p-panel>\r\n            </div>\r\n        </div>\r\n\r\n        <br>\r\n\r\n        <p-dataTable #dtPlanes [responsive]=\"true \" scrollWidth=\"100% \" scrollable=\"true \" [value]=\"reserva.lstPlan\" emptyMessage=\"{{'generico.no.registro' | translate }} \">\r\n            <p-column header=\"{{ 'plan.nro' | translate}} \" field=\"numero\"></p-column>\r\n            <p-column header=\"{{ 'plan.tipo' | translate}} \" field=\"tipoPlanNombre\"></p-column>\r\n            <p-column header=\"{{ 'vehiculo.capacidad' | translate}} \" field=\"capacidad\"></p-column>\r\n            <p-column header=\"{{ 'plan.punto.partida' | translate}} \" field=\"puntoPartidaIda\"></p-column>\r\n            <p-column header=\"{{ 'plan.hora.partida.ida' | translate}} \" field=\"\">\r\n                <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                    {{tx.horaPartidaIda | date: 'HH:mm'}}\r\n                </ng-template>\r\n            </p-column>\r\n            <p-column header=\"{{ 'plan.punto.destino.ida' | translate}} \" field=\"puntoDestinoIda\"></p-column>\r\n            <p-column header=\"{{ 'plan.hora.destino.ida' | translate}} \">\r\n                <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                    {{tx.horaDestinoIda | date: 'HH:mm'}}\r\n                </ng-template>\r\n            </p-column>\r\n            <p-column header=\"{{ 'generico.dias' | translate}} \">\r\n                <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                    {{tx.dias | dias}}\r\n                </ng-template>\r\n            </p-column>\r\n            <p-column header=\"{{ 'generico.estado' | translate}} \" field=\"estadoNombre\"></p-column>\r\n            <p-column header=\"{{'generico.accion' | translate}}\" styleClass=\"textoCentrado\" [style]=\"{'width':'10%'}\">\r\n                <ng-template let-tx=\"rowData \" pTemplate=\"body \">\r\n                    <div class=\"ui-g \" *ngIf=\"tx.estado == 'P'\">\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6 \" title=\"{{'btn.editar' | translate}} \"> <i class=\"fa fa-pencil fa-lg seleccionable\" (click)=\"editarPlan(tx)\"></i></div>\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6 \" *ngIf=\"tx.estado == 'P'\" title=\"{{'btn.eliminar' | translate}}\"> <i class=\"fa fa-trash fa-lg seleccionable\" (click)=\"eliminarPlan(tx)\"></i></div>\r\n                    </div>\r\n                    <div class=\"ui-g \" *ngIf=\"tx.estado == 'G'\">\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6 \" title=\"{{'btn.anular' | translate}} \"> <i class=\"fa fa-times fa-lg seleccionable\" (click)=\"anularPlan(tx)\"></i></div>\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6 \" title=\"{{'btn.ver' | translate}} \"> <i class=\"fa fa-search fa-lg seleccionable\" (click)=\"verPlan(tx)\"></i></div>\r\n                    </div>\r\n                </ng-template>\r\n            </p-column>\r\n        </p-dataTable>\r\n\r\n        <div class=\"ui-g ui-md ui-lg \">\r\n            <div class=\"ui-g-5 ui-md-2 ui-lg-1 \">\r\n                <button pButton label=\"{{'btn.guardar' | translate}} \" icon=\"fa fa-save \" title=\"{{'btn.guardar' | translate}}\" class=\"ui-button \"\r\n                    (click)=\"guardar(pnl)\" type=\"button\"></button>\r\n            </div>\r\n            <div class=\"ui-g-2 ui-md-8 ui-lg-10 \"></div>\r\n            <div class=\"ui-g-5 ui-md-2 ui-lg-1 \">\r\n                <button pButton label=\"{{'btn.salir' | translate}}\" icon=\"fa fa-mail-reply\" title=\"{{'btn.salir' | translate}}\" class=\"ui-button \"\r\n                    type=\"button \" (click)=\"salir()\"></button>\r\n            </div>\r\n        </div>\r\n\r\n    </p-panel>\r\n    <cliente-selector (cargarSeleccionEvent)=\"cargarCliente($event)\" (block)=\"bloquearPagina()\" (unBlock)=\"desbloquearPagina()\"></cliente-selector>\r\n    <p-confirmDialog key=\"eliminarplan\" #cd>\r\n        <p-footer>\r\n            <button type=\"button\" pButton icon=\"fa-check\" label=\"Si\" (click)=\"cd.accept()\"></button>\r\n            <button type=\"button\" pButton icon=\"fa-close\" label=\"No\" (click)=\"cd.reject()\"></button>\r\n        </p-footer>\r\n    </p-confirmDialog>"
+module.exports = "<p-growl [value]=\"msgs\"></p-growl>\r\n<p-blockUI #pnl [blocked]=\"blocked\">\r\n    <div class=\"ui-g\" style=\"position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;width:100px;height: 100px;\">\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n            <i class=\"fa fa-circle-o-notch fa-spin fa-5x\" style=\"color:white; margin: 0 auto;\"></i>\r\n        </div>\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\" style=\"color:white; margin: 0 auto;\">\r\n            <strong>Procesando</strong>\r\n        </div>\r\n    </div>\r\n</p-blockUI>\r\n<div class=\"ui-fluid\" #frm>\r\n    <p-panel header=\"{{'reserva.descripcion' | translate | uppercase}} : {{accionNombre}}\">\r\n        <div class=\"ui-g\">\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>reserva.tipo</label>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-1 ui-lg-2\">\r\n                <p-dropdown [disabled]=\"accion == ACCIONES.EDITAR\" [style]=\"{'width':'100%'}\" [options]=\"lstTipoReserva\" [(ngModel)]=\"reserva.tipoReserva\"></p-dropdown>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"ui-g\">\r\n            <div class=\"ui-g-12 ui-md-3 ui-lg-3 ui-g-nopad\">\r\n                <p-panel header=\"{{'reserva.tiempo.contrato' |  translate}}\" [style]=\"{'height':'100%'}\">\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-4\">\r\n                            <label translate>generico.inicio</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-8\">\r\n                            <p-calendar [disabled]=\"accion == ACCIONES.EDITAR\" [showIcon]=\"true\" dateFormat=\"dd/mm/yy\" [(ngModel)]=\"reserva.fechaInicio\"></p-calendar>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-4\">\r\n                            <label translate>generico.fin</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-8\">\r\n                            <p-calendar [disabled]=\"accion == ACCIONES.EDITAR\" [showIcon]=\"true\" dateFormat=\"dd/mm/yy\" [(ngModel)]=\"reserva.fechaFin\"></p-calendar>\r\n                        </div>\r\n                    </div>\r\n                </p-panel>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-9 ui-lg-9 ui-g-nopad\">\r\n                <p-panel header=\"{{'cliente.descripcion' |  translate}}\" [style]=\"{'height':'100%'}\">\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>generico.codigo</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-1\">\r\n                            <input pInputText [ngModel]=\"reserva.cliente\" disabled />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-2 ui-lg-1\">\r\n                            <button [disabled]=\"accion == ACCIONES.EDITAR\" pButton icon=\"fa fa-binoculars\" class=\"ui-button\" type=\"button\" (click)=\"iniciarSelectorCliente()\"></button>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>cliente.raz</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-8\">\r\n                            <input pInputText [ngModel]=\"cliente.razonSocial\" disabled/>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>generico.telefono</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-2\">\r\n                            <input pInputText [ngModel]=\"cliente.telefono\" disabled/>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>generico.correo</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-8\">\r\n                            <input pInputText [ngModel]=\"cliente.correo\" disabled/>\r\n                        </div>\r\n\r\n                    </div>\r\n                </p-panel>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"ui-g\">\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-12 ui-g-nopad\">\r\n                <p-panel header=\"{{'plan.descripcion' |  translate}}\" [style]=\"{'height':'100%'}\">\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>vehiculo.capacidad</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-6 ui-lg-1\">\r\n                            <p-spinner [disabled]=\"!grabaPlan\" size=\"30\" [min]=\"0\" [max]=\"999\" [(ngModel)]=\"planActual.capacidad\"></p-spinner>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>plan.tipo</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-1 ui-lg-2\">\r\n                            <p-dropdown [disabled]=\"!grabaPlan\" [style]=\"{'width':'100%'}\" [options]=\"lstTipoPlan\" [(ngModel)]=\"planActual.tipoPlan\"></p-dropdown>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-6\">\r\n\r\n                        </div>\r\n                        <div class=\"ui-g-5 ui-md-2 ui-lg-1 \">\r\n                            <button pButton label=\"{{'btn.nuevo' | translate}} \" icon=\"fa fa-plus \" class=\"ui-button \" type=\"button\" title=\"{{'btn.nuevo' | translate}}\"\r\n                                (click)=\"nuevoPlan()\"></button>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.lunes\" binary=\"true\" label=\"{{'generico.lunes' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.martes\" binary=\"true\" label=\"{{'generico.martes' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.miercoles\" binary=\"true\" label=\"{{'generico.miercoles' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.jueves\" binary=\"true\" label=\"{{'generico.jueves' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.viernes\" binary=\"true\" label=\"{{'generico.viernes' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.sabado\" binary=\"true\" label=\"{{'generico.sabado' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-1 ui-md-1 ui-lg-1\">\r\n                            <p-checkbox [disabled]=\"!grabaPlan\" [(ngModel)]=\"planActual.domingo\" binary=\"true\" label=\"{{'generico.domingo' | translate}}\"></p-checkbox>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-4\">\r\n\r\n                        </div>\r\n                        <div class=\"ui-g-5 ui-md-2 ui-lg-1 \" *ngIf=\"agrega && grabaPlan\">\r\n                            <button pButton label=\"{{'btn.agregar' | translate}} \" [disabled]=\"planActual.tipoPlan == 0\" icon=\"fa fa-save \" class=\"ui-button \"\r\n                                type=\"button\" title=\"{{'btn.agregar' | translate}}\" (click)=\"agregarPlan()\"></button>\r\n                        </div>\r\n                        <div class=\"ui-g-5 ui-md-2 ui-lg-1 \" *ngIf=\"!agrega && grabaPlan\">\r\n                            <button pButton label=\"{{'btn.guardar' | translate}} \" [disabled]=\"planActual.tipoPlan == 0\" icon=\"fa fa-save \" class=\"ui-button \"\r\n                                type=\"button\" title=\"{{'btn.guardar' | translate}}\" (click)=\"guardarPlan()\"></button>\r\n                        </div>\r\n                    </div>\r\n                </p-panel>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"ui-g\" *ngIf=\"planActual.tipoPlan != 0\">\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-12 ui-g-nopad\" *ngIf=\"planActual.tipoPlan == 1\">\r\n                <p-panel header=\"{{'plan.ida' |  translate}}\" [style]=\"{'height':'100%'}\">\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>plan.punto.partida</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-3\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.puntoPartidaIda\" />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>plan.hora.partida</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-1\">\r\n                            <p-calendar [disabled]=\"!grabaPlan\" [timeOnly]=\"true\" [(ngModel)]=\"planActual.horaPartidaIda\"></p-calendar>\r\n                        </div>\r\n\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>plan.punto.destino</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-3\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.puntoDestinoIda\" />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>plan.hora.destino</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-1\">\r\n                            <p-calendar [disabled]=\"!grabaPlan\" [timeOnly]=\"true\" [(ngModel)]=\"planActual.horaDestinoIda\"></p-calendar>\r\n                        </div>\r\n\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-1\">\r\n                            <label translate>plan.ruta.especifica</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-11\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.rutaEspecificaIda\" />\r\n                        </div>\r\n                    </div>\r\n                </p-panel>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-6 ui-g-nopad\" *ngIf=\"planActual.tipoPlan == 2\">\r\n                <p-panel header=\"{{'plan.ida' |  translate}}\" [style]=\"{'height':'100%'}\">\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.punto.partida</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-4\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.puntoPartidaIda\" />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.hora.partida</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-2\">\r\n                            <p-calendar [disabled]=\"!grabaPlan\" [timeOnly]=\"true\" [(ngModel)]=\"planActual.horaPartidaIda\"></p-calendar>\r\n                        </div>\r\n\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.punto.destino</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-4\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.puntoDestinoIda\" />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.hora.destino</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-2\">\r\n                            <p-calendar [disabled]=\"!grabaPlan\" [timeOnly]=\"true\" [(ngModel)]=\"planActual.horaDestinoIda\"></p-calendar>\r\n                        </div>\r\n\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.ruta.especifica</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-9\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.rutaEspecificaIda\" />\r\n                        </div>\r\n                    </div>\r\n                </p-panel>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-6 ui-g-nopad\" *ngIf=\"planActual.tipoPlan == 2\">\r\n                <p-panel header=\"{{'plan.retorno' |  translate}}\" [style]=\"{'height':'100%'}\">\r\n                    <div class=\"ui-g ui-g-nopad\">\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.punto.partida</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-4\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.puntoPartidaVuelta\" />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.hora.partida</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-2\">\r\n                            <p-calendar [disabled]=\"!grabaPlan\" [timeOnly]=\"true\" [(ngModel)]=\"planActual.horaPartidaVuelta\"></p-calendar>\r\n                        </div>\r\n\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.punto.destino</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-4\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.puntoDestinoVuelta\" />\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.hora.destino</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-2\">\r\n                            <p-calendar [disabled]=\"!grabaPlan\" [timeOnly]=\"true\" [(ngModel)]=\"planActual.horaDestinoVuelta\"></p-calendar>\r\n                        </div>\r\n\r\n                        <div class=\"ui-g-12 ui-md-4 ui-lg-3\">\r\n                            <label translate>plan.ruta.especifica</label>\r\n                        </div>\r\n                        <div class=\"ui-g-12 ui-md-8 ui-lg-9\">\r\n                            <input [disabled]=\"!grabaPlan\" pInputText [(ngModel)]=\"planActual.rutaEspecificaVuelta\" />\r\n                        </div>\r\n                    </div>\r\n                </p-panel>\r\n            </div>\r\n        </div>\r\n\r\n        <br>\r\n\r\n        <p-dataTable #dtPlanes [responsive]=\"true \" scrollWidth=\"100% \" scrollable=\"true \" [value]=\"reserva.lstPlan\" emptyMessage=\"{{'generico.no.registro' | translate }} \">\r\n            <p-column header=\"{{ 'plan.nro' | translate}} \" field=\"numero\"></p-column>\r\n            <p-column header=\"{{ 'plan.tipo' | translate}} \" field=\"tipoPlanNombre\"></p-column>\r\n            <p-column header=\"{{ 'vehiculo.capacidad' | translate}} \" field=\"capacidad\"></p-column>\r\n            <p-column header=\"{{ 'plan.punto.partida' | translate}} \" field=\"puntoPartidaIda\"></p-column>\r\n            <p-column header=\"{{ 'plan.hora.partida.ida' | translate}} \" field=\"\">\r\n                <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                    {{tx.horaPartidaIda | date: 'HH:mm'}}\r\n                </ng-template>\r\n            </p-column>\r\n            <p-column header=\"{{ 'plan.punto.destino.ida' | translate}} \" field=\"puntoDestinoIda\"></p-column>\r\n            <p-column header=\"{{ 'plan.hora.destino.ida' | translate}} \">\r\n                <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                    {{tx.horaDestinoIda | date: 'HH:mm'}}\r\n                </ng-template>\r\n            </p-column>\r\n            <p-column header=\"{{ 'generico.dias' | translate}} \">\r\n                <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                    {{tx.dias | dias}}\r\n                </ng-template>\r\n            </p-column>\r\n            <p-column header=\"{{ 'generico.estado' | translate}} \" field=\"estadoNombre\"></p-column>\r\n            <p-column header=\"{{'generico.accion' | translate}}\" styleClass=\"textoCentrado\" [style]=\"{'width':'10%'}\">\r\n                <ng-template let-tx=\"rowData \" pTemplate=\"body \">\r\n                    <div class=\"ui-g \" *ngIf=\"tx.estado == 'P'\">\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6 \" title=\"{{'btn.editar' | translate}} \">\r\n                            <i class=\"fa fa-pencil fa-lg seleccionable\" (click)=\"editarPlan(tx)\"></i>\r\n                        </div>\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6 \" *ngIf=\"tx.estado == 'P'\" title=\"{{'btn.eliminar' | translate}}\">\r\n                            <i class=\"fa fa-trash fa-lg seleccionable\" (click)=\"eliminarPlan(tx)\"></i>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"ui-g \" *ngIf=\"tx.estado == 'G'\">\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6 \" title=\"{{'btn.anular' | translate}} \">\r\n                            <i class=\"fa fa-times fa-lg seleccionable\" (click)=\"anularPlan(tx)\"></i>\r\n                        </div>\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6 \" title=\"{{'btn.ver' | translate}} \">\r\n                            <i class=\"fa fa-search fa-lg seleccionable\" (click)=\"verPlan(tx)\"></i>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"ui-g \" *ngIf=\"tx.estado == 'X'\">\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6 \" title=\"{{'btn.anular' | translate}} \">\r\n                            <i class=\"fa fa-times fa-lg seleccionable\"></i>\r\n                        </div>\r\n                        <div class=\"ui-g-6 ui-md-6 ui-lg-6 \" title=\"{{'btn.ver' | translate}} \">\r\n                            <i class=\"fa fa-search fa-lg seleccionable\"></i>\r\n                        </div>\r\n                    </div>\r\n                </ng-template>\r\n            </p-column>\r\n        </p-dataTable>\r\n\r\n        <div class=\"ui-g ui-md ui-lg \">\r\n            <div class=\"ui-g-5 ui-md-2 ui-lg-1 \">\r\n                <button pButton label=\"{{'btn.guardar' | translate}} \" icon=\"fa fa-save \" title=\"{{'btn.guardar' | translate}}\" class=\"ui-button \"\r\n                    (click)=\"guardar(pnl)\" type=\"button\"></button>\r\n            </div>\r\n            <div class=\"ui-g-2 ui-md-8 ui-lg-10 \"></div>\r\n            <div class=\"ui-g-5 ui-md-2 ui-lg-1 \">\r\n                <button pButton label=\"{{'btn.salir' | translate}}\" icon=\"fa fa-mail-reply\" title=\"{{'btn.salir' | translate}}\" class=\"ui-button \"\r\n                    type=\"button \" (click)=\"salir()\"></button>\r\n            </div>\r\n        </div>\r\n\r\n    </p-panel>\r\n    <cliente-selector (cargarSeleccionEvent)=\"cargarCliente($event)\" (block)=\"bloquearPagina()\" (unBlock)=\"desbloquearPagina()\"></cliente-selector>\r\n    <p-confirmDialog key=\"eliminarplan\" #cd>\r\n        <p-footer>\r\n            <button type=\"button\" pButton icon=\"fa-check\" label=\"Si\" (click)=\"cd.accept()\"></button>\r\n            <button type=\"button\" pButton icon=\"fa-close\" label=\"No\" (click)=\"cd.reject()\"></button>\r\n        </p-footer>\r\n    </p-confirmDialog>\r\n\r\n    <p-dialog header=\"{{'btn.anular' | translate | uppercase}}\" [(visible)]=\"verModalAnular\" modal=\"modal\" showEffect=\"fade\"\r\n        width=\"300\">\r\n\r\n        <div class=\"ui-g\">\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-12 \">\r\n                <p-checkbox binary=\"true\" [(ngModel)]=\"anularTrasladosEjecutados\" label=\"Traslados ejecutados\"></p-checkbox>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"ui-g \">\r\n            <div class=\"ui-g-4 ui-md-4 ui-lg-4 \">\r\n                <button pButton label=\"{{ 'btn.aceptar' | translate}} \" title=\"{{ 'btn.aceptar' | translate}}\r\n                            \" icon=\"fa fa-check \" type=\"button \" (click)=\"aceptarAnular() \" class=\"ui-button \"></button>\r\n            </div>\r\n            <div class=\"ui-g-4 ui-md-4 ui-lg-4 \"></div>\r\n            <div class=\"ui-g-4 ui-md-4 ui-lg-4 \">\r\n                <button pButton label=\"{{ 'btn.cancelar' | translate}} \" title=\"{{ 'btn.cancelar' | translate}} \" icon=\"fa\r\n                            fa-mail-reply \" class=\"ui-button \" type=\"button \" (click)=\"verModalAnular=false\"></button>\r\n            </div>\r\n        </div>\r\n    </p-dialog>"
 
 /***/ }),
 
@@ -4189,20 +4274,21 @@ module.exports = "<p-growl [value]=\"msgs\"></p-growl>\r\n<p-blockUI #pnl [block
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cliente_cliente_service__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__reserva_service__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cliente_cliente_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente-selector.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__plan_plan__ = __webpack_require__("../../../../../src/app/mavitours/plan/plan.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_primeng_primeng__ = __webpack_require__("../../../../primeng/primeng.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_primeng_primeng___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_primeng_primeng__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__constantes__ = __webpack_require__("../../../../../src/app/mavitours/constantes.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__miscelaneo_miscelaneoDetalle__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneoDetalle.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__miscelaneo_miscelaneo_service__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneo.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__comun_basecomponent__ = __webpack_require__("../../../../../src/app/comun/basecomponent.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__reserva__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__cliente_cliente__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plan_plan_service__ = __webpack_require__("../../../../../src/app/mavitours/plan/plan.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cliente_cliente_service__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reserva_service__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__cliente_cliente_selector_component__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente-selector.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__plan_plan__ = __webpack_require__("../../../../../src/app/mavitours/plan/plan.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__ = __webpack_require__("../../../../primeng/primeng.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_primeng_primeng___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_primeng_primeng__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__constantes__ = __webpack_require__("../../../../../src/app/mavitours/constantes.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__miscelaneo_miscelaneoDetalle__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneoDetalle.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__miscelaneo_miscelaneo_service__ = __webpack_require__("../../../../../src/app/mavitours/miscelaneo/miscelaneo.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__comun_basecomponent__ = __webpack_require__("../../../../../src/app/comun/basecomponent.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__reserva__ = __webpack_require__("../../../../../src/app/mavitours/reserva/reserva.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__cliente_cliente__ = __webpack_require__("../../../../../src/app/mavitours/cliente/cliente.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ReservaMantenimientoComponent; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -4236,10 +4322,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var ReservaMantenimientoComponent = (function (_super) {
     __extends(ReservaMantenimientoComponent, _super);
-    function ReservaMantenimientoComponent(clienteService, reservaService, confirmationService, router, route, miscelaneoService) {
+    function ReservaMantenimientoComponent(planService, clienteService, reservaService, confirmationService, router, route, miscelaneoService) {
         var _this = _super.call(this) || this;
+        _this.planService = planService;
         _this.clienteService = clienteService;
         _this.reservaService = reservaService;
         _this.confirmationService = confirmationService;
@@ -4249,11 +4337,13 @@ var ReservaMantenimientoComponent = (function (_super) {
         _this.accionNombre = "";
         _this.lstTipoReserva = [];
         _this.lstTipoPlan = [];
-        _this.planActual = new __WEBPACK_IMPORTED_MODULE_3__plan_plan__["a" /* Plan */]();
-        _this.reserva = new __WEBPACK_IMPORTED_MODULE_11__reserva__["a" /* Reserva */]();
-        _this.cliente = new __WEBPACK_IMPORTED_MODULE_12__cliente_cliente__["a" /* Cliente */]();
+        _this.planActual = new __WEBPACK_IMPORTED_MODULE_4__plan_plan__["a" /* Plan */]();
+        _this.reserva = new __WEBPACK_IMPORTED_MODULE_12__reserva__["a" /* Reserva */]();
+        _this.cliente = new __WEBPACK_IMPORTED_MODULE_13__cliente_cliente__["a" /* Cliente */]();
         _this.agrega = true;
         _this.grabaPlan = true;
+        _this.anularTrasladosEjecutados = false;
+        _this.verModalAnular = false;
         return _this;
     }
     ReservaMantenimientoComponent.prototype.ngOnInit = function () {
@@ -4263,8 +4353,8 @@ var ReservaMantenimientoComponent = (function (_super) {
     };
     ReservaMantenimientoComponent.prototype.cargarCombos = function () {
         var _this = this;
-        var filtroTipoReserva = new __WEBPACK_IMPORTED_MODULE_6__miscelaneo_miscelaneoDetalle__["a" /* MiscelaneoDetalle */]();
-        filtroTipoReserva.codigoTabla = __WEBPACK_IMPORTED_MODULE_5__constantes__["u" /* TABLA_TIPO_RESERVA */];
+        var filtroTipoReserva = new __WEBPACK_IMPORTED_MODULE_7__miscelaneo_miscelaneoDetalle__["a" /* MiscelaneoDetalle */]();
+        filtroTipoReserva.codigoTabla = __WEBPACK_IMPORTED_MODULE_6__constantes__["u" /* TABLA_TIPO_RESERVA */];
         this.lstTipoReserva.push({ label: ' -- Seleccionar -- ', value: null });
         this.miscelaneoService.listado(filtroTipoReserva).then(function (res) {
             res.forEach(function (reg) { return _this.lstTipoReserva.push({ label: reg.descripcion, value: reg.codigoElemento }); });
@@ -4286,7 +4376,7 @@ var ReservaMantenimientoComponent = (function (_super) {
     ReservaMantenimientoComponent.prototype.nuevo = function () {
         this.accion = this.ACCIONES.NUEVO;
         this.accionNombre = this.getAccionNombre();
-        this.reserva = new __WEBPACK_IMPORTED_MODULE_11__reserva__["a" /* Reserva */]();
+        this.reserva = new __WEBPACK_IMPORTED_MODULE_12__reserva__["a" /* Reserva */]();
         this.nuevoPlan();
         this.desbloquearPagina();
     };
@@ -4536,7 +4626,7 @@ var ReservaMantenimientoComponent = (function (_super) {
     ReservaMantenimientoComponent.prototype.nuevoPlan = function () {
         this.agrega = true;
         this.grabaPlan = true;
-        this.planActual = new __WEBPACK_IMPORTED_MODULE_3__plan_plan__["a" /* Plan */]();
+        this.planActual = new __WEBPACK_IMPORTED_MODULE_4__plan_plan__["a" /* Plan */]();
         this.planActual.tipoPlan = 0;
         this.planActual.capacidad = 0;
         this.planActual.estado = 'P';
@@ -4582,21 +4672,54 @@ var ReservaMantenimientoComponent = (function (_super) {
         });
         return max + 1;
     };
+    ReservaMantenimientoComponent.prototype.anularPlan = function (bean) {
+        var _this = this;
+        this.confirmationService.confirm({
+            header: 'Confirmación',
+            message: '¿Desea anular el registro?',
+            key: 'eliminarplan',
+            accept: function () {
+                _this.iniciarModalAnular(bean);
+            }
+        });
+    };
+    ReservaMantenimientoComponent.prototype.iniciarModalAnular = function (bean) {
+        this.planSeleccionado = bean;
+        this.anularTrasladosEjecutados = false;
+        this.verModalAnular = true;
+    };
+    ReservaMantenimientoComponent.prototype.aceptarAnular = function () {
+        var _this = this;
+        this.bloquearPagina();
+        this.planSeleccionado.trasladosEjecutados = this.anularTrasladosEjecutados;
+        this.planService.anular(this.planSeleccionado).then(function (res) {
+            _this.verModalAnular = false;
+            _this.msgs = [];
+            _this.msgs.push({ severity: 'success', summary: 'Información', detail: res });
+            _this.planSeleccionado.estado = 'X';
+            _this.planSeleccionado.estadoNombre = 'Anulado';
+            var temp = _this.reserva.lstPlan.slice();
+            temp = temp.filter(function (r) { return r.numero != _this.planSeleccionado.numero; });
+            temp.push(_this.planSeleccionado);
+            _this.reserva.lstPlan = temp;
+            _this.desbloquearPagina();
+        });
+    };
     return ReservaMantenimientoComponent;
-}(__WEBPACK_IMPORTED_MODULE_9__comun_basecomponent__["a" /* BaseComponent */]));
+}(__WEBPACK_IMPORTED_MODULE_10__comun_basecomponent__["a" /* BaseComponent */]));
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_2__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */]),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */]) === "function" && _a || Object)
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_3__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */]),
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__cliente_cliente_selector_component__["a" /* ClienteSelectorComponent */]) === "function" && _a || Object)
 ], ReservaMantenimientoComponent.prototype, "clienteSelectorComponent", void 0);
 ReservaMantenimientoComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__angular_core__["Component"])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__angular_core__["Component"])({
         selector: 'reserva-mantenimiento',
         template: __webpack_require__("../../../../../src/app/mavitours/reserva/reserva-mantenimiento.component.html")
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0__cliente_cliente_service__["a" /* ClienteService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__cliente_cliente_service__["a" /* ClienteService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__reserva_service__["a" /* ReservaService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__reserva_service__["a" /* ReservaService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4_primeng_primeng__["ConfirmationService"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4_primeng_primeng__["ConfirmationService"]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_10__angular_router__["Router"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_10__angular_router__["Router"]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_10__angular_router__["ActivatedRoute"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_10__angular_router__["ActivatedRoute"]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_7__miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */]) === "function" && _g || Object])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0__plan_plan_service__["a" /* PlanService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__plan_plan_service__["a" /* PlanService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__cliente_cliente_service__["a" /* ClienteService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__cliente_cliente_service__["a" /* ClienteService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__reserva_service__["a" /* ReservaService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__reserva_service__["a" /* ReservaService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["ConfirmationService"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["ConfirmationService"]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_11__angular_router__["Router"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_11__angular_router__["Router"]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_11__angular_router__["ActivatedRoute"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_11__angular_router__["ActivatedRoute"]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_8__miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8__miscelaneo_miscelaneo_service__["a" /* MiscelaneoService */]) === "function" && _h || Object])
 ], ReservaMantenimientoComponent);
 
-var _a, _b, _c, _d, _e, _f, _g;
+var _a, _b, _c, _d, _e, _f, _g, _h;
 //# sourceMappingURL=reserva-mantenimiento.component.js.map
 
 /***/ }),
@@ -4671,6 +4794,13 @@ var ReservaService = (function () {
             }
         });
     };
+    ReservaService.prototype.anular = function (bean) {
+        return this.http.post(this.url + "anular", bean)
+            .toPromise().then(function (response) {
+            var p = response.json();
+            return p.res;
+        });
+    };
     ReservaService.prototype.toDate = function (date) {
         if (date == null) {
             return null;
@@ -4725,7 +4855,7 @@ var DtoTrasladoConductor = (function () {
 /***/ "../../../../../src/app/mavitours/traslado/traslado-listado.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p-growl [value]=\"msgs\"></p-growl>\r\n<p-blockUI [blocked]=\"blocked\">\r\n</p-blockUI>\r\n<div class=\"ui-fluid\" #frm>\r\n    <p-panel header=\"{{'traslado.titulo' | translate | uppercase}} : {{'generico.filtros' | translate }}\">\r\n        <div class=\"ui-g ui-md ui-lg\">\r\n            <div class=\"ui-g-12 ui-md-2 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>plan.titulo</label>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                <p-dropdown [style]=\"{'width':'100%'}\" [(ngModel)]=\"filtro.nroPlan\" [options]=\"lstPlanes\"></p-dropdown>\r\n            </div>\r\n        </div>\r\n    </p-panel>\r\n\r\n\r\n    <div class=\"ui-g ui-md ui-lg\">\r\n        <div class=\"ui-g-5 ui-md-2 ui-lg-1\">\r\n            <button pButton label=\"{{'btn.salir' | translate}}\" icon=\"fa fa-mail-reply\" class=\"ui-button\" type=\"button\" title=\"{{'btn.salir' | translate}}\"\r\n                (click)=\"salir()\"></button>\r\n        </div>\r\n        <div class=\"ui-g-2 ui-md-8 ui-lg-10\"></div>\r\n        <div class=\"ui-g-5 ui-md-2 ui-lg-1\">\r\n            <button pButton label=\"{{'btn.buscar' | translate}}\" icon=\"fa fa-binoculars\" class=\"ui-button\" type=\"button\" title=\"{{'btn.buscar' | translate}}\"\r\n                (click)=\"buscar(dtTraslados)\"></button>\r\n        </div>\r\n    </div>\r\n\r\n\r\n\r\n\r\n    <p-dataTable #dtTraslados [responsive]=\"true\" scrollWidth=\"100%\" scrollable=\"true\" emptyMessage=\"{{ 'generico.no.registro' | translate }}\"\r\n        [paginator]=\"true\" [rows]=\"registrosDevolver\" [lazy]=\"true\" [totalRecords]=\"paginacion.registroEncontrados\" (onLazyLoad)=\"cargarTraslados($event)\"\r\n        scrollWidth=\"100%\" [value]=\"paginacion.listaResultado\">\r\n\r\n        <p-column header=\"{{'cliente.descripcion' | translate}}\" field=\"clienteNombre\" [style]=\"{'width':'200px'}\"></p-column>\r\n        <p-column header=\"{{'traslado.descripcion' | translate}}\" field=\"nroTraslado\" [style]=\"{'width':'50px'}\"></p-column>\r\n        <p-column header=\"{{'generico.tipo' | translate}}\" field=\"tipoNombre\" [style]=\"{'width':'50px'}\"></p-column>\r\n        <p-column header=\"{{'plan.punto.partida' | translate}} \" field=\"ptoPartida\" [style]=\"{'width':'200px'}\"></p-column>\r\n        <p-column header=\"{{'generico.fecha' | translate}}\" field=\"fecha\" [style]=\"{'width':'70px'}\" styleClass=\"textoCentrado\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                {{tx.fecha | date: 'dd/MM/yyyy'}}\r\n            </ng-template>\r\n        </p-column>\r\n        <p-column header=\"{{'generico.dia' | translate}}\" field=\"fecha\" [style]=\"{'width':'50px', 'text-transform':'capitalize'}\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                {{tx.fecha | diaNombre}}\r\n            </ng-template>\r\n        </p-column>\r\n        <p-column header=\"{{'plan.hora.partida' | translate}}\" field=\"horaPartidaNombre\" [style]=\"{'width':'70px'}\" styleClass=\"textoCentrado\"></p-column>\r\n        <p-column header=\"{{'vehiculo.capacidad' | translate}}\" [style]=\"{'width':'70px'}\" styleClass=\"textoCentrado\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                <div class=\"ui-g\">\r\n                    <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n                        <label>{{tx.actual}}/{{tx.capacidad}}</label>\r\n                    </div>\r\n                </div>\r\n            </ng-template>\r\n        </p-column>\r\n        <p-column header=\"{{'generico.estado' | translate}}\" field=\"estadoNombre\" [style]=\"{'width':'70px'}\"></p-column>\r\n        <p-column header=\"{{'generico.accion' | translate}}\" styleClass=\"textoCentrado\" [style]=\"{'width':'70px'}\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                <i class=\"fa fa-pencil fa-lg seleccionable\" (click)=\"verRecursos(tx)\" title=\"{{'btn.recursos' | translate}}\"></i>\r\n            </ng-template>\r\n        </p-column>\r\n    </p-dataTable>\r\n    <recurso-traslado (cargarListadoEvent)=\"listar()\"></recurso-traslado>"
+module.exports = "<p-growl [value]=\"msgs\"></p-growl>\r\n<p-blockUI #pnl [blocked]=\"blocked\">\r\n    <div class=\"ui-g\" style=\"position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;width:100px;height: 100px;\">\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n            <i class=\"fa fa-circle-o-notch fa-spin fa-5x\" style=\"color:white; margin: 0 auto;\"></i>\r\n        </div>\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\" style=\"color:white; margin: 0 auto;\">\r\n            <strong>Procesando</strong>\r\n        </div>\r\n    </div>\r\n</p-blockUI>\r\n<div class=\"ui-fluid\" #frm>\r\n    <p-panel header=\"{{'traslado.titulo' | translate | uppercase}} : {{'generico.filtros' | translate }}\">\r\n        <div class=\"ui-g ui-md ui-lg\">\r\n            <div class=\"ui-g-12 ui-md-2 ui-lg-1 controlEtiquetaDivTop\">\r\n                <label translate>plan.titulo</label>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-6 ui-lg-2\">\r\n                <p-dropdown [style]=\"{'width':'100%'}\" [(ngModel)]=\"filtro.nroPlan\" [options]=\"lstPlanes\"></p-dropdown>\r\n            </div>\r\n        </div>\r\n    </p-panel>\r\n\r\n\r\n    <div class=\"ui-g ui-md ui-lg\">\r\n        <div class=\"ui-g-5 ui-md-2 ui-lg-1\">\r\n            <button pButton label=\"{{'btn.salir' | translate}}\" icon=\"fa fa-mail-reply\" class=\"ui-button\" type=\"button\" title=\"{{'btn.salir' | translate}}\"\r\n                (click)=\"salir()\"></button>\r\n        </div>\r\n        <div class=\"ui-g-2 ui-md-8 ui-lg-10\"></div>\r\n        <div class=\"ui-g-5 ui-md-2 ui-lg-1\">\r\n            <button pButton label=\"{{'btn.buscar' | translate}}\" icon=\"fa fa-binoculars\" class=\"ui-button\" type=\"button\" title=\"{{'btn.buscar' | translate}}\"\r\n                (click)=\"buscar(dtTraslados)\"></button>\r\n        </div>\r\n    </div>\r\n\r\n\r\n\r\n\r\n    <p-dataTable #dtTraslados [responsive]=\"true\" scrollWidth=\"100%\" scrollable=\"true\" emptyMessage=\"{{ 'generico.no.registro' | translate }}\"\r\n        [paginator]=\"true\" [rows]=\"registrosDevolver\" [lazy]=\"true\" [totalRecords]=\"paginacion.registroEncontrados\" (onLazyLoad)=\"cargarTraslados($event)\"\r\n        scrollWidth=\"100%\" [value]=\"paginacion.listaResultado\">\r\n\r\n        <p-column header=\"{{'cliente.descripcion' | translate}}\" field=\"clienteNombre\" [style]=\"{'width':'200px'}\"></p-column>\r\n        <p-column header=\"{{'traslado.descripcion' | translate}}\" field=\"nroTraslado\" [style]=\"{'width':'50px'}\"></p-column>\r\n        <p-column header=\"{{'generico.tipo' | translate}}\" field=\"tipoNombre\" [style]=\"{'width':'50px'}\"></p-column>\r\n        <p-column header=\"{{'plan.punto.partida' | translate}} \" field=\"ptoPartida\" [style]=\"{'width':'200px'}\"></p-column>\r\n        <p-column header=\"{{'generico.fecha' | translate}}\" field=\"fecha\" [style]=\"{'width':'70px'}\" styleClass=\"textoCentrado\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                {{tx.fecha | date: 'dd/MM/yyyy'}}\r\n            </ng-template>\r\n        </p-column>\r\n        <p-column header=\"{{'generico.dia' | translate}}\" field=\"fecha\" [style]=\"{'width':'50px', 'text-transform':'capitalize'}\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                {{tx.fecha | diaNombre}}\r\n            </ng-template>\r\n        </p-column>\r\n        <p-column header=\"{{'plan.hora.partida' | translate}}\" field=\"horaPartidaNombre\" [style]=\"{'width':'70px'}\" styleClass=\"textoCentrado\"></p-column>\r\n        <p-column header=\"{{'vehiculo.capacidad' | translate}}\" [style]=\"{'width':'70px'}\" styleClass=\"textoCentrado\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                <div class=\"ui-g\">\r\n                    <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n                        <label>{{tx.actual}}/{{tx.capacidad}}</label>\r\n                    </div>\r\n                </div>\r\n            </ng-template>\r\n        </p-column>\r\n        <p-column header=\"{{'generico.estado' | translate}}\" field=\"estadoNombre\" [style]=\"{'width':'70px'}\"></p-column>\r\n        <p-column header=\"{{'generico.accion' | translate}}\" styleClass=\"textoCentrado\" [style]=\"{'width':'70px'}\">\r\n            <ng-template let-tx=\"rowData\" pTemplate=\"body\">\r\n                <i class=\"fa fa-pencil fa-lg seleccionable\" (click)=\"verRecursos(tx)\" title=\"{{'btn.recursos' | translate}}\"></i>\r\n            </ng-template>\r\n        </p-column>\r\n    </p-dataTable>\r\n    <recurso-traslado (cargarListadoEvent)=\"listar()\"></recurso-traslado>"
 
 /***/ }),
 
@@ -4875,6 +5005,9 @@ var TrasladoService = (function () {
         this.headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]({ 'Content-Type': 'application/json' });
     }
     TrasladoService.prototype.listarConPaginacion = function (filtro, paginacion) {
+        console.log(filtro);
+        filtro.fecha = this.toDate(filtro.fecha);
+        console.log(filtro);
         var params = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* URLSearchParams */]();
         params.set("paginacion", JSON.stringify(paginacion));
         params.set("filtro", JSON.stringify(filtro));
@@ -4949,6 +5082,15 @@ var TrasladoService = (function () {
         return this.http.post(this.url + 'ingresardetalle', detalle).toPromise().then(function (response) {
             return response.json().mensaje;
         });
+    };
+    TrasladoService.prototype.toDate = function (date) {
+        if (date == null) {
+            return null;
+        }
+        else {
+            var f = date;
+            return f.getFullYear() + '-' + (f.getMonth() + 1) + "-" + f.getDate();
+        }
     };
     return TrasladoService;
 }());
@@ -5616,6 +5758,7 @@ var AppMenuComponent = (function () {
                     m.label = r1.label;
                     m.icon = r1.icon;
                     m.routerLink = r1.routerLink;
+                    m.click = r1.click;
                     _this.opciones.forEach(function (r2) {
                         if (r2.opcionPadre == r1.opcion && r2.interno != 'S') {
                             m.items.push(r2);
@@ -5699,6 +5842,12 @@ var AppSubMenu = (function () {
         this.location = location;
     }
     AppSubMenu.prototype.itemClick = function (event, item, index) {
+        var i = item;
+        if (i.click) {
+            if (i.click == "cambiarContrasenia()") {
+                this.app.showDialog();
+            }
+        }
         //avoid processing disabled items
         if (item.disabled) {
             event.preventDefault();
@@ -5866,19 +6015,31 @@ var _a, _b, _c;
 
 /***/ }),
 
-/***/ "../../../../../src/app/shared/shell/shell.component.html":
+/***/ "../../../../../src/app/shared/shell/contrasenia/contrasenia-mantenimiento.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"layout-wrapper\" (click)=\"onWrapperClick()\"\r\n    [ngClass]=\"{'layout-wrapper-static': layoutStatic,\r\n                'layout-wrapper-active': mobileMenuActive}\">\r\n    \r\n    <app-menu></app-menu>   \r\n    \r\n       <div class=\"layout-main\">\r\n        <app-topbar></app-topbar>\r\n        \r\n        <div class=\"layout-content\">\r\n            <router-outlet></router-outlet>\r\n        </div>\r\n        \r\n        <app-footer></app-footer>\r\n        <div class=\"layout-main-mask\" *ngIf=\"mobileMenuActive\"></div>\r\n    </div>    \r\n\r\n</div>"
+module.exports = "<p-growl [value]=\"msgs\"></p-growl>\r\n<p-blockUI #pnl [blocked]=\"blocked\">\r\n    <div class=\"ui-g\" style=\"position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;width:100px;height: 100px;\">\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\">\r\n            <i class=\"fa fa-circle-o-notch fa-spin fa-5x\" style=\"color:white; margin: 0 auto;\"></i>\r\n        </div>\r\n        <div class=\"ui-g-12 ui-md-12 ui-lg-12\" style=\"color:white; margin: 0 auto;\">\r\n            <strong>Procesando</strong>\r\n        </div>\r\n    </div>\r\n</p-blockUI>\r\n<div class=\"ui-fluid\">\r\n    <p-dialog header=\"CAMBIO DE CLAVE\" [(visible)]=\"verModal\" modal=\"modal\" showEffect=\"fade\" hideEffect=\"size\" width=\"450px\">\r\n        <p-panel header=\"Información\">\r\n            <div class=\"ui-g\">\r\n                <div class=\"ui-g-12 ui-md-12 ui-lg-5\">\r\n                    <label>Usuario</label>\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-12 ui-lg-7\">\r\n                    <input pInputText [(ngModel)]=\"usuario\" disabled/>\r\n                </div>\r\n            </div>\r\n            <div class=\"ui-g\">\r\n                <div class=\"ui-g-12 ui-md-12 ui-lg-5\">\r\n                    <label>Clave Anterior</label>\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-12 ui-lg-7\">\r\n                    <input [(ngModel)]=\"clave\" pPassword class=\"ui-inputtext ui-widget\" style=\"height: 23px; font-size: 15px !important;\" type=\"password\"\r\n                    />\r\n                </div>\r\n            </div>\r\n            <div class=\"ui-g\">\r\n                <div class=\"ui-g-12 ui-md-12 ui-lg-5\">\r\n                    <label>Clave Nueva</label>\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-12 ui-lg-7\">\r\n                    <input [(ngModel)]=\"clave1\" pPassword class=\"ui-inputtext ui-widget\" style=\"height: 23px; font-size: 15px !important;\" type=\"password\"\r\n                    />\r\n                </div>\r\n            </div>\r\n            <div class=\"ui-g\">\r\n                <div class=\"ui-g-12 ui-md-12 ui-lg-5\">\r\n                    <label>Repetir Clave</label>\r\n                </div>\r\n                <div class=\"ui-g-12 ui-md-12 ui-lg-7\">\r\n                    <input [(ngModel)]=\"clave2\" pPassword class=\"ui-inputtext ui-widget\" style=\"height: 23px; font-size: 15px !important;\" type=\"password\"\r\n                    />\r\n                </div>\r\n            </div>\r\n        </p-panel>\r\n\r\n        <div class=\"ui-g\">\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-5\">\r\n                <button pButton label=\"Guardar\" icon=\"fa fa-save\" type=\"button\" (click)=\"guardar()\" class=\"ui-button-success\"></button>\r\n            </div>\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-2\"></div>\r\n            <div class=\"ui-g-12 ui-md-12 ui-lg-5\">\r\n                <button pButton label=\"Salir\" icon=\"fa fa-close\" class=\"ui-button-danger\" type=\"button\" (click)=\"salir()\"></button>\r\n            </div>\r\n        </div>\r\n\r\n\r\n\r\n    </p-dialog>\r\n</div>"
 
 /***/ }),
 
-/***/ "../../../../../src/app/shared/shell/shell.component.ts":
+/***/ "../../../../../src/app/shared/shell/contrasenia/contrasenia-mantenimiento.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShellComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__comun_basecomponent__ = __webpack_require__("../../../../../src/app/comun/basecomponent.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_seguridad_seguridad_service__ = __webpack_require__("../../../../../src/app/home/seguridad/seguridad.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContraseniaMantenientoComponent; });
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5889,9 +6050,110 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var ShellComponent = (function () {
+
+
+var ContraseniaMantenientoComponent = (function (_super) {
+    __extends(ContraseniaMantenientoComponent, _super);
+    function ContraseniaMantenientoComponent(seguridadService) {
+        var _this = _super.call(this) || this;
+        _this.seguridadService = seguridadService;
+        _this.verModal = false;
+        _this.usuario = "";
+        _this.clave = "";
+        _this.clave1 = "";
+        _this.clave2 = "";
+        return _this;
+    }
+    ;
+    ContraseniaMantenientoComponent.prototype.iniciarComponente = function (usuario) {
+        console.log(1);
+        this.usuario = usuario;
+        this.clave = "";
+        this.clave1 = "";
+        this.clave2 = "";
+        this.verModal = true;
+    };
+    ContraseniaMantenientoComponent.prototype.guardar = function () {
+        var _this = this;
+        this.bloquearPagina();
+        this.msgs = [];
+        if (this.clave1 != this.clave2) {
+            this.msgs.push({ severity: 'error', summary: 'Error', detail: 'Las claves no coinciden' });
+            return;
+        }
+        this.seguridadService.cambiarClave(this.usuario, this.clave, this.clave1, this.clave2).then(function (res) {
+            if (res.status == 200) {
+                _this.desbloquearPagina();
+                _this.msgs.push({ severity: 'info', summary: 'Información', detail: 'Se han guardado los cambios' });
+                _this.salir();
+            }
+            else {
+                _this.desbloquearPagina();
+                _this.msgs.push({ severity: 'error', summary: 'Error', detail: res.statusText });
+            }
+        });
+    };
+    ContraseniaMantenientoComponent.prototype.salir = function () {
+        this.verModal = false;
+    };
+    return ContraseniaMantenientoComponent;
+}(__WEBPACK_IMPORTED_MODULE_0__comun_basecomponent__["a" /* BaseComponent */]));
+ContraseniaMantenientoComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Component"])({
+        selector: 'contrasenia-mantenimiento',
+        template: __webpack_require__("../../../../../src/app/shared/shell/contrasenia/contrasenia-mantenimiento.component.html")
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__home_seguridad_seguridad_service__["a" /* SeguridadService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__home_seguridad_seguridad_service__["a" /* SeguridadService */]) === "function" && _a || Object])
+], ContraseniaMantenientoComponent);
+
+var _a;
+//# sourceMappingURL=contrasenia-mantenimiento.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/shared/shell/shell.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"layout-wrapper\" (click)=\"onWrapperClick()\" [ngClass]=\"{'layout-wrapper-static': layoutStatic,\r\n                'layout-wrapper-active': mobileMenuActive}\">\r\n\r\n    <app-menu></app-menu>\r\n\r\n    <div class=\"layout-main\">\r\n        <app-topbar></app-topbar>\r\n\r\n        <div class=\"layout-content\">\r\n            <router-outlet></router-outlet>\r\n        </div>\r\n\r\n        <app-footer></app-footer>\r\n        <contrasenia-mantenimiento></contrasenia-mantenimiento>\r\n        <div class=\"layout-main-mask\" *ngIf=\"mobileMenuActive\"></div>\r\n    </div>\r\n\r\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/shared/shell/shell.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__contrasenia_contrasenia_mantenimiento_component__ = __webpack_require__("../../../../../src/app/shared/shell/contrasenia/contrasenia-mantenimiento.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__comun_basecomponent__ = __webpack_require__("../../../../../src/app/comun/basecomponent.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShellComponent; });
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ShellComponent = (function (_super) {
+    __extends(ShellComponent, _super);
     function ShellComponent(renderer) {
-        this.renderer = renderer;
+        var _this = _super.call(this) || this;
+        _this.renderer = renderer;
+        return _this;
     }
     ShellComponent.prototype.onWrapperClick = function () {
         if (!this.menuClick && !this.menuButtonClick) {
@@ -5947,18 +6209,25 @@ var ShellComponent = (function () {
     };
     ShellComponent.prototype.ngOnInit = function () {
     };
+    ShellComponent.prototype.showDialog = function () {
+        this.contraseniaMantenientoComponent.iniciarComponente(this.getUsuarioActual().usuario);
+    };
     return ShellComponent;
-}());
+}(__WEBPACK_IMPORTED_MODULE_1__comun_basecomponent__["a" /* BaseComponent */]));
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_0__contrasenia_contrasenia_mantenimiento_component__["a" /* ContraseniaMantenientoComponent */]),
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__contrasenia_contrasenia_mantenimiento_component__["a" /* ContraseniaMantenientoComponent */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__contrasenia_contrasenia_mantenimiento_component__["a" /* ContraseniaMantenientoComponent */]) === "function" && _a || Object)
+], ShellComponent.prototype, "contraseniaMantenientoComponent", void 0);
 ShellComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Component"])({
         selector: 'app-shell',
         template: __webpack_require__("../../../../../src/app/shared/shell/shell.component.html"),
         styles: []
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Renderer"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["Renderer"]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_core__["Renderer"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_core__["Renderer"]) === "function" && _b || Object])
 ], ShellComponent);
 
-var _a;
+var _a, _b;
 //# sourceMappingURL=shell.component.js.map
 
 /***/ }),
