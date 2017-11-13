@@ -1648,6 +1648,7 @@ body .fc .fc-toolbar .ui-icon-circle-triangle-w {
   body .fc .fc-toolbar .ui-icon-circle-triangle-w:before {
     content: ""; }
 body .fc .fc-event-container .fc-event {
+  cursor: pointer;
   border-color: #147df0;
   background-color: #0e71dc; }
 
